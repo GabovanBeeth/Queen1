@@ -1,0 +1,2043 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Queen</title>
+<link href="jquery/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+.tit1 {
+	font-family: "Old English Text MT";
+	font-style: italic;
+	font-weight: bold;
+	color: #F00;
+	font-size: 100pt;
+	text-shadow:#FFF;
+}
+.tit2 {
+	font-family: "Old English Text MT";
+	font-size:36px;
+	font-style: italic;
+	font-weight: bold;
+	color:#F00;
+}
+
+.CBTis {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Pdat {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FF0;
+}
+
+.dat {
+	font-family: "Edwardian Script ITC";
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+}
+.menu{
+	font-family:"Broadway Copyist Text Ext";
+	font-size:24px;
+}
+
+.fondo {
+	background-color: #000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color:#00C;
+	text-shadow:#FFF;
+}
+
+.not {
+	font-family: "Edwardian Script ITC";
+	font-size:36px;
+	font-weight: bold;
+	color: #FFF;
+}
+</style>
+<script src="jquery/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div class="tit1" style="background-image:url(Imagenes/PInicio/queen_crest.png); "data-role="header">
+		<center>&diams;Queen&diams;</center>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li class="menu"><a href="#page2"><center>&diams; Introducci&oacute;n &diams;</center></a></li>
+            <li class="menu"><a href="#page3"><center>&diams; Historia &diams;</center></a></li>
+			<li class="menu"><a href="#page4"><center>&diams; Discograf&iacute;a &diams;</center></a></li>            
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<center><font class="CBTis">
+        	Centro de Bachillerato Tecnol&oacute;gico<br>
+            industrial y de servicios No. 86<br>
+            "Gral. Francisco Villa"<br>
+            PROGRAMACI&OACUTE;N
+        </font><hr width="50%">    
+        <p><font class="Pdat">Autor:</font><font class="dat">Gabriel Maldonado Romero</font></p>
+        <p><font class="Pdat">Facilitador:</font><font class="dat">David Nieto</font></p></center>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div class="tit2" data-role="header">
+		<center>&diams; Introducci&oacute;n &diams;</center>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">	
+		&nbsp; &nbsp; &nbsp;Queen es una banda brit&aacute;nica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Freddie Mercury, quien muri&oacute; en 1991 y John Deacon, quien se retir&oacute; en 1997), los integrantes restantes, Brian May y Roger Taylor, contin&uacute;an trabajando bajo el nombre Queen, por lo que la banda a&uacute;n es considerada activa.
+		<p>&nbsp; &nbsp; &nbsp;El grupo goz&oacute; de un gran &eacute;xito en Gran Bretaña a mediados de los años 1970 con &aacute;lbumes como Sheer Heart Attack en 1974 y A Night at the Opera del año siguiente. Este &uacute;ltimo llam&oacute; la atención internacionalmente, en especial por el sencillo "Bohemian Rhapsody", y coloc&oacute; a Queen en un primer plano de la escena musical. Tuvieron una significativa repercusi&oacute;n en Estados Unidos a mediados de los años 1980, ya con un numeroso repertorio de &eacute;xitos. A nivel art&iacute;stico, se ha destacado su diversidad musical, sus arreglos en m&uacute;ltiples capas y sus armon&iacute;as vocales. Es considerada una banda de gran influencia en el desarrollo del hard rock y el heavy metal, incorporando elementos del glam rock, rock progresivo, folk, blues y pop. Fue una de las primeras agrupaciones musicales en hacer de sus conciertos espect&aacute;culos muy vistosos mediante el uso bombas de humo, flashpots o innovadores sistemas de luces              		m&oacute;viles, adem&aacute;s de promover la participaci&oacute;n del p&uacute;blico en los mismos, contribuyendo as&iacute; al auge del arena rock. La cr&iacute;tica ha señalado el carisma de Freddie Mercury como una parte fundamental de sus presentaciones. A este respecto, habitualmente se han reconocido actuaciones como las del Live Aid en 1985 o el concierto del estadio de Wembley en 1986 como dos de los mejores recitales de rock de la historia. Aunque el cuarteto normalmente goz&oacute; de una gran popularidad y &eacute;xito comercial, en su momento una parte de la cr&iacute;tica no les tom&oacute; en serio, como por ejemplo cuando la publicaci&oacute;n Rolling Stone critic&oacute; el &aacute;lbum Jazz llam&aacute;ndolo "fascista".</p>
+		<p>&nbsp; &nbsp; &nbsp;Tienen en su haber un total de 15 &aacute;lbumes de estudio, 7 &aacute;lbumes en vivo y numerosas recopilaciones. Desde la muerte de Mercury y el retiro de Deacon del mundo musical, May y Taylor se han presentado juntos ocasionalmente en eventos especiales y programas televisivos como m&uacute;sicos invitados junto a otros artistas. Desde 2004 hasta 2009, trabajaron junto a Paul Rodgers bajo el nombre de Queen + Paul Rodgers. Con unas ventas estimadas en torno a 200 millones de discos, Queen es uno de los grupos m&aacute;s exitosos de todos los tiempos; su primer &aacute;lbum compilatorio, Greatest Hits(1981), es todav&iacute;a el &aacute;lbum m&aacute;s vendido en la historia del Reino Unido con 6 millones de copias en este pa&iacute;s. Queen fue nombrado el decimotercer mejor artista de hard rock de todos los tiempos en una lista elaborada por VH1 (VH1's 100 Greatest Artists of Hard Rock list); adem&aacute;s, en un sondeo realizado por la emisora BBC Radio 2 en 2007, Queen fue 					elegido como "el mejor grupo brit&aacute;nico de todos los tiempos".</p>		
+	</div>
+	<div data-role="footer">
+		<h4>Queen</h4>
+	</div>
+</div>
+
+
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<div data-role="page" id="page3">
+	<div class="tit2" data-role="header">
+		<center>&diams; Historia &diams;</center>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li class="menu"><a href="#page3.1"><center>&diams; Smile &diams;</center></a></li>
+            <li class="menu"><a href="#page3.2"><center>&diams; El bajista &diams;</center></a></li>
+			<li class="menu"><a href="#page3.3"><center>&diams; Contrato con Trident &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4"><center>&diams; Obras &diams;</center></a></li>
+            <li class="menu"><a href="#page3.5"><center>&diams; Fallecimiento de Freddie Mercury &diams;</center></a></li>
+            <li class="menu"><a href="#page3.6"><center>&diams; Despu&eacute;s de Mercury &diams;</center></a></li>
+		</ul>			
+	</div>
+	<div data-role="footer">
+		<h4>Queen</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3.1">
+	<div class="tit2" data-role="header">
+		<center>&diams; Smile &diams;</center>
+        <a href="#page3"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">	
+		&nbsp; &nbsp; &nbsp;Las ra&iacute;ces m&aacute;s remotas de Queen, provienen de 1968, cuando el guitarrista Brian May y el baterista Roger Taylor se unieron con el cantante Tim Staffell a un conjunto llamado Smile, un grupo de hard rock psicod&eacute;lico. Smile firm&oacute; con Mercury Records en 1969, y tuvo su primera sesi&oacute;n en un estudio de grabaci&oacute;n en Trident Studios ese año. Tim Staffell estudiaba en Ealing Art College con Freddie Mercury, y lo present&oacute; a la banda. Mercury se hizo un ac&eacute;rrimo fan. Staffell se retir&oacute; en 1970 para unirse a otra banda,Humpy Bong. Pero esto dudar&iacute;a poco, pues para comenzar su carrera de solista, Staffell abandon&oacute; Smile y, el resto del grupo decidi&oacute; contactarse con Farrokh Bomi Bulsara, mejor conocido como Freddie Mercury, para reemplazarlo, &eacute;l adem&aacute;s de ser admirador de Smile hab&iacute;a pertenecido a otra banda llamada Sour Milk Sea. Mercury era un m&uacute;sico con una dotada voz (alcanzaba las   		cuatro octavas) y amplios conocimiento de piano. Sin embargo, la cl&aacute;sica formaci&oacute;n del futuro conjunto musical se completar&iacute;a reci&eacute;n en 1971, con la llegada del bajista John Deacon. Realizaron pocos conciertos en sus comienzos, evitando los circuitos de clubes y ensayar durante dos años mientras todos terminaban sus carreras universitarias: May comenz&oacute; a estudiar un doctorado en astronom&iacute;a, Taylor tiene una licenciatura en odontolog&iacute;a, Deacon un grado en ingenier&iacute;a en electr&oacute;nica y Mercury hizo una carrera de ilustración y diseño.
+		<p>&nbsp; &nbsp; &nbsp;Un detalle es la caracter&iacute;stica guitarra casera de Brian May, que &eacute;l, junto a su padre, construy&oacute; en 1963, con una madera de una chimenea, una aguja de tejer, resortes de v&aacute;lvulas de motocicleta, entre otras cosas. Su guitarra es conocida como Red Special.</p>
+		<p>&nbsp; &nbsp; &nbsp;Los miembros restantes de Smile, impulsados por Mercury, cambiaron su nombre a "Queen" y continuaron trabajando juntos, uni&eacute;ndoseles Mercury como vocalista. La idea del nombre ven&iacute;a de Mercury y Taylor, en especial, a May no le gust&oacute;. Sin embargo fue convencido. Otras ideas surgieron, como Grand Dance -que viene de una trilog&iacute;a de libros que Roger y Brian hab&iacute;an le&iacute;do-. Taylor tambi&eacute;n le hab&iacute;a agradado el nombre de The Rich Kids. Pero Queen fue el elegido. Pasaron una gran cantidad de tiempo ensayando, gracias a que May era muy respetado en el Imperial College, y ten&iacute;a el permiso especial para usar los teatros para los ensayos de su grupo. Ensayaron algunas canciones, generalmente de otros artistas, Mercury y May rescataron algunos temas de Ibex, Smile y Wreckage. Luego de estos ensayos, finalmente Queen realiz&oacute; el 27 de junio de 1970 su primera aparici&oacute;n p&uacute;blica. El debut en el escenario fue bueno. 		Incluso recibieron un pago de cincuenta libras. Alrededor de este tiempo, Freddie cambi&oacute; su apellido de Bulsara a Mercury, ya que consider&oacute; que el apellido Bulsara no era digno de una estrella. Eligió 'Mercury', en honor al Dios Mercurio.</p>	
+        <p class="not">Origen del nombre del grupo:</p>
+		<p class="not">Yo pens&eacute; el nombre "Queen". Es s&oacute;lo un nombre, pero obviamente es muy real y suena espl&eacute;ndido. Es un nombre fuerte, muy universal e inmediato. Visualmente ten&iacute;a mucho potencial y estaba abierto a toda clase de interpretaciones. Yo estaba consciente de las connotaciones gay, pero eso fue s&oacute;lo una faceta de &eacute;l.</p>		
+        <p class="not" align="right">Freddie Mercury</p>
+	</div>
+	<div data-role="footer">
+		<h4>Historia</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3.2">
+	<div class="tit2" data-role="header">
+		<center>&diams; El Bajista &diams;</center>
+         <a href="#page3"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">	
+		&nbsp; &nbsp; &nbsp;Durante este peri&oacute;do la banda tuvo varios bajistas. Precisamente, en enero Mitchell Barry decide retirarse del conjunto, ya que el grupo se manejaba demasiado lento y &eacute;l necesitaba ganar dinero r&aacute;pidamente. En busca de un nuevo bajista aparece un sujeto llamado Doug (era una buena opci&oacute;n ya que &eacute;l ten&iacute;a algo de equipos). Al d&iacute;a siguiente de brindar una actuaci&oacute;n en febrero en el Kingston Polytechnic -cerca de la casa del bajista-, el grupo le pide amistosamente a Doug que busque otra banda. John Harris, un amigo que ayud&oacute; al conjunto con las luces y los equipos llev&oacute; a Taylor y May a una discoteca en Maria Assumpta Teaching College. All&iacute; les present&oacute; a un amigo suyo, John Deacon, un bajista. La conversaci&oacute;n se llev&oacute; finalmente a la m&uacute;sica. Deacon, que no estaba en una banda, se le ofreci&oacute; una audici&oacute;n. Durante la prueba, Deacon a duras penas dijo una palabra. 
+        Ellos se dan cuenta de su potencial y talento, pero adem&aacute;s, de su silencio y tranquilidad, es el m&aacute;s joven de los cuatro. Y as&iacute; el primer concierto con el nuevo bajista se concret&oacute; en julio, en Surrey. Al poco tiempo vuelven a tocar en el Imperial College. El tr&iacute;o ofrec&iacute;a palomitas de ma&iacute;z gratis al p&uacute;blico que concurriese al show. En un show en la escuela de mujeres de St Helen, parte del soporte del micr&oacute;fono de Freddie Mercury se suelta y se cae, qued&aacute;ndose con el micr&oacute;fono y enganchado a la primera parte del soporte. Sin embargo, Mercury sigui&oacute; con la actuaci&oacute;n, de ah&iacute; surgi&oacute; el caracter&iacute;stico bast&oacute;n con micr&oacute;fono que lo identifico y uso durante todos los conciertos. Utilizando sus contactos en Cornwall, Taylor organiz&oacute; un tour para Queen. Los afiches de la gira dec&iacute;an cosas como "Roger Taylor and Queen", ya que el baterista ten&iacute;a una                 		reputaci&oacute;n desde la &eacute;poca de Reaction.
+	</div>
+	<div data-role="footer">
+		<h4>Historia</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3.3">
+	<div class="tit2" data-role="header">
+		<center>&diams; Contrato con Trident &diams;</center>
+         <a href="#page3"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">	
+		&nbsp; &nbsp; &nbsp;Terry Yeadon amigo de Brian May, estaba construyendo su propio estudio de grabaci&oacute;n, que lo bautiz&oacute; con el nombre de De Lane Lea, en Wembley. El estudio necesitaba m&uacute;sicos para probar los nuevos equipos, as&acute; que May fue con su grupo a probar el nuevo estudio de su amigo. En aquel estudio realizaron sus primeros registros, los cuales fueron: "Liar", "Keep Yourself Alive", "The Night Comes Down" y "Jesus", en 1971. Con estos demos el grupo se emprendi&oacute; a buscar casas discogr&aacute;ficas que se encuentren interesadas en su trabajo, pero ninguna apareci&oacute;.
+        <img src="Imagenes/PInicio/queen_crest.png" align="left" width="400">
+		<p>&nbsp; &nbsp; &nbsp;Despu&eacute;s de haber asistido a la Escuela de Arte, Freddie Mercury diseño el c&eacute;lebre logotipo de Queen, llamado Queen crest, poco antes del lanzamiento del primer &aacute;lbum de la banda. La insignia, combina los signos del zodiaco de los cuatro componentes del conjunto: dos leones por Leo (representando a Deacon y Taylor), un cangrejo por C&aacute;ncer (representando a May), y dos hadas por Virgo (representando a Mercury). Los leones se encuentran abrazando una letra Q, el cangrejo descansa sobre la letra, de &eacute;l se elevan unas llamaradas, y las dos hadas est&aacute;n debajo de cada le&oacute;n. Dentro de la Q hay una corona, el logotipo es eclipsado por una enorme ave F&eacute;nix. Todo el conjunto tiene una similitud con el Escudo del Reino Unido, en particular con los leones. El logotipo original, que se encuentra en el reverso del primer &aacute;lbum, fue un dibujo con trazos simples, pero la versi&oacute;n m&aacute;s compleja y en color, se emple&oacute; en  		&aacute;lbumes posteriores.</p>
+		<p>&nbsp; &nbsp; &nbsp;A&uacute;n eran un grupo sin un sello discogr&aacute;fico, un conjunto "no oficial", comenzaban a frustrarse por la falta de progreso. Sin embargo, apareci&oacute; un avance cuando el sello Chrysalis Records les ofreci&oacute; un contrato. El sello se mostr&oacute; muy interesado en firmar con Queen, pero el grupo decidi&oacute; rechazar la oferta, considerando que los t&eacute;rminos no los beneficiaban. Mucho personal de producci&oacute;n pasaban por el estudio De Lane Lea, chequeando las conexiones, realizando pruebas de calidad del sonido, etc. En eso, dos ingenieros del Trident Wardour Street Studio, Roy Thomas Baker y John Anthony, pasaban de casualidad. Anthony qued&oacute; impresionado con el sonido de Queen, e inmediatamente reconoci&oacute; a Taylor y May, ya que &eacute;l hab&iacute;a producido su sencillo "Earth" en la &eacute;poca en que eran de Smile. Ellos persuadieron a sus empleados, Barry y Norman Sheffield para que investiguen al grupo. Luego de que Barry         		Sheffield los observara en vivo, contempla la excentricidad de Freddie Mercury y la destacada actuaci&oacute;n en vivo del cuarteto en el Forest Hill Hospital Dance, qued&oacute; convencido de lo que le dijeron Anthony y Baker. Decidieron que Queen ten&iacute;a que firmar con Trident, lo m&aacute;s pronto posible. As&iacute; apareci&oacute; un nuevo contrato, con Trident. Pero el grupo consider&oacute; que el mismo ten&iacute;a t&eacute;rminos que no les convenc&iacute;a. Sin embargo, luego de un concierto en el Pheasanty de Kings Road, Queen firm&oacute; con Trident, a finales del año 1972. El contrato que hizo Trident se divid&iacute;a en tres acuerdos distintos: derechos de publicaci&oacute;n, contrato de grabaci&oacute;n y contrato de representaci&oacute;n. Queen era un grupo a&uacute;n inexperto en el mundo de la industria musical, la misma que los hab&iacute;a desacreditado y "marginado". No obstante, corr&iacute;an con la ventaja de la experiencia de May, Taylor y Mercury frente a Smile. A finales 		de 1972, precisamente en septiembre, Trident, acord&oacute; pagarle a Queen, as&iacute; hayan o no editado el &aacute;lbum, cosa que sucedi&oacute;, el grupo recibi&oacute; una paga.</p>
+		<p>&nbsp; &nbsp; &nbsp;En un estudio del complejo de Trident, Robin Cable estaba interpretando "I Can Hear Music" una canci&oacute;n de The Beach Boys. Cable le ofreci&oacute; a Mercury grabar esa canci&oacute;n. Efectivamente &eacute;l la registro, pero como solista y bajo el nombre de Larry Lurex. Cuando terminaron de grabar el tema, Cable llam&oacute; a Taylor y May para que agregasen pistas de batería y guitarra. Mercury tambi&eacute;n interpret&oacute; "Goin' Back", un cl&aacute;sico de Dusty Springfield. Con ese orden se har&iacute;a p&uacute;blico en sencillo, pero el corte tuvo muy baja difusión.</p>
+		<p>&nbsp; &nbsp; &nbsp;Un ejecutivo de la compañ&iacute;a EMI, Roy Fetherstone, se encontraba en el Festival de MIDEM, celebrado en el sur de Francia. All&iacute; mismo apareci&oacute; Jack Nelson le hizo escuchar una cinta de Queen, algo que llam&oacute; la atenci&oacute;n enseguida de Fetherstone. Nelson le miente a Fetherstone dici&eacute;ndole que varias casas discogr&aacute;ficas estaban interesadas en el grupo. Acto seguido, Fetherstone env&iacute;a un telegrama v&iacute;a Trident para pedir que el grupo no firmase con nadie m&aacute;s. Al regresar Fetherstone, todo se puso en marcha para que Queen firmase el contrato. Un primer acuerdo fue rechazado, porque Trident reclamaba m&aacute;s dinero. Las negociaciones segu&iacute;an sin concretarse, hasta que en marzo Queen se dirigi&oacute; a las oficinas de EMI para pactar un contrato de grabaci&oacute;n. A continuaci&oacute;n, Jack Nelson organiz&oacute; un concierto en el Marquee, para as&iacute; presentarles al director general de Elektra Records, 				Jack Holsten. All&iacute; el conjunto firmo con Elektra para que el sello distribuya sus trabajos en el Reino Unido.</p>
+	</div>
+	<div data-role="footer">
+		<h4>Historia</h4>
+	</div>
+</div>
+
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<div data-role="page" id="page3.4">
+	<div class="tit2" data-role="header">
+		<center>&diams; Obras &diams;</center>
+        <a href="#page3"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div data-role="content">
+    	<ul data-role="listview">
+			<li class="menu"><a href="#page3.4.1"><center>&diams; Queen: Primera obra &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.2"><center>&diams; Queen II &diams;</center></a></li>
+			<li class="menu"><a href="#page3.4.3"><center>&diams; Sheer Heart Attack: la transici&oacute;n &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.4"><center>&diams; A Night at the Opera: &Eacute;xito &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.5"><center>&diams; A Day at the Races &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.6"><center>&diams; News of the World &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.7"><center>&diams; Jazz &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.8"><center>&diams; The Game: Giro radical &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.9"><center>&diams; Flash Gordon &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.10"><center>&diams; Hot Space &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.11"><center>&diams; The Works &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.12"><center>&diams; A Kind of Magic: mayor &eacute;xito comercial &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.12.3L"><center>&diams; Magic Tour &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.13"><center>&diams; The Miracle &diams;</center></a></li>
+            <li class="menu"><a href="#page3.4.14"><center>&diams; Innuendo &diams;</center></a></li>            
+		</ul>			
+	</div>
+	<div data-role="footer">
+		<h4>Historia</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3.4.1">
+	<div class="tit2" data-role="header">
+		<center>&diams; Primera obra: Queen &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+    	<img src="Imagenes/PHistoria/(1973) Queen.png" align="left" width="400">
+		&nbsp; &nbsp; &nbsp;Tras firmar, Trident le ofrece al grupo un nuevo sistema de grabaci&oacute;n y nuevos instrumentos. Brian May opt&oacute; por conservar su guitarra casera. Ellos llamaron a Jack Nelson como gerente, &eacute;l ya hab&iacute;a dado consejos al grupo en el pasado. Nelson lleg&oacute; a mostrar las cintas de los demos de Queen a EMI, pero la negociación no funcion&oacute;. A pesar de que no hab&iacute;a aparecido ninguna empresa para distribuir el disco de Queen, el conjunto, inaugur&oacute; el Sheffield de 24 pistas para grabar su primer &aacute;lbum. Pero solo se les concedi&oacute; aquellos espacios de tiempo cuando nadie estaba, dando como resultado grabaciones producidas de manera casual, sobre todo en horas de la madrugada o la mañana, cuando nadie se encontrase grabando. El grupo estuvo involucrado en cada detalle de la elaboraci&oacute;n del &aacute;lbum. La producci&oacute;n de la contratapa es un collage de fotos. Los miembros de Queen hab&iacute;an llamado a sus amigos para que 		en torno de Mercury, seleccionaran las mejores fotos. Mercury y May pasaron algunas semanas pegando fotos. En tanto a la portada del &aacute;lbum, qui&eacute;n realiz&oacute; la captura fue el fot&oacute;grafo Doug Puddifoot, tambi&eacute;n hab&iacute;a tomado muchas fotos usadas en el collage. La tapa tiene a Freddie Mercury en el escenario con su caracter&iacute;stico micr&oacute;fono. El efecto p&uacute;rpura se logr&oacute; tan solo colocando un celuloide de aquel color en el lente de la c&aacute;mara. El &aacute;lbum debut estaba influenciado por el rock progresivo y el heavy metal de ese momento.
+		<p>&nbsp; &nbsp; &nbsp;El disco se hab&iacute;a terminado de grabar, pero faltaba que Trident ubicara el disco en alguna discogr&aacute;fica, entonces, en mayo, la discogr&aacute;fica EMI edit&oacute; el disco, pero el lanzamiento no se produjo sino hasta el 13 de julio de 1973. Taylor quer&iacute;a que el &aacute;lbum se llamara Top Fax, Pix and Info, tambi&eacute;n hab&iacute;an pensado Deary Me pero, sin embargo, fue llamado Queen. El disco tra&iacute;a la famosa cita "En este &aacute;lbum no se han usado sintetizadores", el aviso fue puesto m&aacute;s que nada porque mucha gente confund&iacute;a a algunos efectos especiales de la guitarra en capas de Brian May con un sintetizador.</p>
+		<p>&nbsp; &nbsp; &nbsp;Fue bien recibido por los cr&iacute;ticos. Gordon Fletcher de Rolling Stone dijo: "Su &aacute;lbum debut es excelente", el Daily Herald de Chicago lo llam&oacute;: "Un debut por encima del promedio". Sin embargo, no llam&oacute; mucho la atenci&oacute;n y el sencillo principal "Keep Yourself Alive", una composición de Brian May, vendi&oacute; pobremente, el corte hab&iacute;a sido rechazado por varias emisoras, solo Radio Luxemburgo le brindo acogida al sencillo. Greg Prato de Allmusic lo llam&oacute;: "Uno de los debuts de hard rock m&aacute;s subvalorados de todos los tiempos". Al poco tiempo de emitirse el disco, Queen comenz&oacute; a hacer pequeñas giras. Si bien el &aacute;lbum no entra en el Top 10 de Reino Unido, la banda consigue llamar la atenci&oacute;n de nuevos fan&aacute;ticos. Esto los motiva a entrar de nuevo en el estudio de grabaci&oacute;n en agosto de 1973. Adem&aacute;s, reciben una gran noticia: el grupo de moda en ese momento, Mott the Hoople, quiere que les  		hagan de teloneros de sus espect&aacute;culos por el Reino Unido. La gira se realiza entre octubre y diciembre culminando en el Hammersmith Odeon londinense. Alcanz&oacute; el puesto n.º 83 en los Estados Unidos, siendo su &aacute;lbum debut el primero en ingresar a ambas listas.</p>
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page3.4.2">
+	<div class="tit2" data-role="header">
+		<center>&diams; Queen II &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+    	&nbsp; &nbsp; &nbsp;Ronnie Fowler, director del departamento de promoci&oacute;n de EMI, invirti&oacute; 20.000 libras en costos para promover a Queen. Robin Nash, productor del programa musical Top of the Pops, le pregunt&oacute; si conoc&iacute;a a alg&uacute;n grupo para que tocase en el show, Fowler le aconsejo llevar a Queen. Y as&iacute; el 21 de febrero de 1974 Queen fue transmitido por primera vez en el Top of the Pops, adem&aacute;s de aparecer por primera vez en televisi&oacute;n, tocando "Seven Seas of Rhye". Al otro d&iacute;a, Jack Nelson se apresur&oacute; en promover un sencillo a las radios. EMI apresurada y oportunamente edit&oacute; el corte el 23 de febrero, siendo "Seven Seas of Rhye" con "See What A Fool I've Been". El lado B no fue incluido en el disco. El sencillo produce que el conjunto ingrese en las listas brit&aacute;nicas, permaneciendo all&iacute; por diez semanas obteniendo el lugar m&aacute;s alto en el puesto n.º 10, siendo un considerable &eacute;xito.
+        <p><img src="Imagenes/PHistoria/Queen+II.png" align="left"></p>
+		<p>&nbsp; &nbsp; &nbsp;Cuando justo estaba todo preparado para emitir el disco, la banda descubri&oacute; un error de tipeo en la portada e insisti&oacute; en que deb&iacute;a ser corregido. Pero además, Reino Unido hab&iacute;a sido v&iacute;ctima de la crisis del petr&oacute;leo, lo que significaba que exist&iacute;a una semana laboral de tres d&iacute;as, este hecho retraso el lanzamiento del &aacute;lbum. El 8 de marzo de 1974, finalmente se publica Queen II. El &aacute;lbum alcanz&oacute; el puesto n.º 5 en las listas brit&aacute;nicas manteni&eacute;ndose por treinta semanas. La segunda entrega del conjunto fue su primer disco de oro. En los Estados Unidos, Queen II escal&oacute; m&aacute;s posiciones que su antecesor, llegando al lugar n.º 49. Queen II al igual que otros &aacute;lbumes fu&eacute; editado con una cara de color negro y otra de color blanco. La foto de portada fue tomada por Mick Rock, ser&iacute;a la imagen icono del video clip de Bohemian Rhapsody (Rapsodia Bohemia). El															&aacute;lbum es el primero que presenta un sonido distintivo, con variaciones y cuenta con complejos pasajes instrumentales, letras de fantas&iacute;a y tem&aacute;ticas, y virtuosismo musical.</p>
+		<p>&nbsp; &nbsp; &nbsp;En 1974 se conform&oacute; el club de fans de Queen, reconocido por el Libro Guinness de los r&eacute;cords como uno de los centros de fans con m&aacute;s asociados en el mundo. En mayo, despu&eacute;s de brindar seis funciones como banda soporte en el Gershwin Theatre de Nueva York, se le diagnostic&oacute; a Brian May hepatitis.</p>
+		<p>&nbsp; &nbsp; &nbsp;La canci&oacute;n "Funny How Love is" tiene una producci&oacute;n similar a la de Phil Spector. El &aacute;lbum es su primera publicaci&oacute;n pesada y oscura, presentando largos y complejos pasajes instrumentales, letras complejas y virtuosidad musical. Durante este per&iacute;odo la banda sali&oacute; de gira como teloneros de Mott the Hoople en Gran Bretaña y Estados Unidos, y comenzaron a hacer noticia por sus energ&eacute;ticos y participativas presentaciones en el escenario. Sin embargo, las ventas del &aacute;lbum en Estados Unidos fueron tan bajas como las de su predecesor.</p>
+		<p>&nbsp; &nbsp; &nbsp;&Eacute;ste es considerado como un disco de transici&oacute;n para la banda, por su notable diferencia con el anterior en cuanto a sonido y madurez, y por otro motivo importante: hab&iacute;an comenzado las voces oper&iacute;sticas (lo cual a&uacute;n estaba ausente en el primer &aacute;lbum). Esas sobregrabaciones vocales que causaban el efecto de un coro de &oacute;pera, y que tanto caracterizar&iacute;a a Queen a lo largo de toda su carrera, hab&iacute;a empezado a tomar m&aacute;s peso Queen II, el disco en cuesti&oscute;n tuvo m&aacute;s &eacute;xito que el anterior, aunque a&uacute;n faltaba un sencillo exitoso que se emitiera en las radios (lo cual ocurrir&iacute;a en su siguiente disco con "Killer Queen").
+		<p>&nbsp; &nbsp; &nbsp;Con el &eacute;xito del sencillo y el &eacute;xito del &aacute;lbum, Queen realiz&oacute; su primera gira por el Reino Unido. Freddie Mercury se encontraba en su "periodo Zandra Rhodes", le encantaba vestirse con las prendas que ella le diseñaba. El tour iba bien, hasta que en la Universidad de Stirling, el p&uacute;blico escoc&eacute;s se descontrol&oacute;, comenzaron a lanzar botellas y latas de cerveza- En los disturbios siguientes, dos personas resultaron heridas por arma blanca, y otras dos personas del personal de Queen fueron heridas (de baja gravedad) y hospitalizadas. Durante la gira, a Queen se le comunic&oacute; que el &aacute;lbum Queen II hab&iacute;a trepado el puesto n.º 5. A finales de año realizaron su primera gira por los Estados Unidos, siendo teloneros de Mott The Hoople.</p>
+	</div>
+  <div data-role="footer">		               
+    <a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+  </div>
+</div>
+
+<div data-role="page" id="page3.4.3">
+	<div class="tit2" data-role="header">
+		<center>&diams; Sheer Heart Attack: la transici&oacute;n &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+    	<img src="Imagenes/PHistoria/(1974) Sheer Heart Attack.png" align="left" width="410">
+    	&nbsp; &nbsp; &nbsp;Sali&oacute; a la luz el primer resultado el 11 de octubre de 1974 siendo la publicaci&oacute;n del sencillo "Killer Queen"/"Flick of the Wrist", ambas canciones bajo la autor&iacute;a de Mercury. El sencillo fue disco de plata, hab&iacute;a alcanzado el puesto n.º 2 en las listas inglesas, manteni&eacute;ndose all&iacute; por doce semanas. Fue el primer corte en entrar a las listas estadounidenses, alcanzando el puesto n.º 12. Casi tres semanas despu&eacute;s, el 1 de noviembre, se lanza el &aacute;lbum Sheer Heart Attack, segundo disco del año 1974 (publicado unos meses después de Queen II). Sheer Heart Attack lleg&oacute; al puesto n.º 2 en las listas inglesas, qued&aacute;ndose all&iacute; por 42 semanas. Luego de la edici&oacute;n del disco, sali&oacute; al mercado el 17 de enero de 1975 el sencillo "Now I'm Here"/"Lily of the Valley", se mantuvo en las listas brit&aacute;nicas durante 7 semanas alcanzando el puesto n.º 11. La tercer entrega de Queen fue considerada mejor que  		sus antecesores. Fue su primer disco de oro en los Estados Unidos, siendo adem&aacute;s el primer &aacute;lbum exitoso en ambos lados del Atl&aacute;ntico.
+		<p>&nbsp; &nbsp; &nbsp;Emprendieron su primera gira como banda cabecera en los Estados Unidos en 1975, con el apoyo masivo de Elektra. La demanda de entradas era grande. La gira se complic&oacute;, a Mercury se le diagnostic&oacute; n&oacute;dulos en la garganta, lo que motiv&oacute; a la cancelaci&oacute;n de algunos conciertos, para as&iacute; disminuir la frecuencia de los mismos. Pero el cantante se recuper&oacute;, y Queen volvi&oacute; r&aacute;pidamente al tour. Luego de la acalorada gira estadounidense, los cuatro miembros se dirigieron a Haw&aacute;i para vacacionar, antes de brindar en mayo su primera gira por Jap&oacute;n. Precisamente el 18 de abril Queen arrib&oacute; al aeropuerto de Tokio, el cual se encontraba sitiado por fans. El cuarteto ingl&eacute;s recorri&oacute; todo el pa&iacute;s. En cualquier ubicaci&oacute;n en donde tocase, las entradas se agotaban. A Freddie Mercury le hab&iacute;a agradado la cultura de aquel pa&iacute;s, a tal punto de convertirse en un aficionado           		coleccionista de antigüedades y arte japon&eacute;s. En el momento en que Queen retorna a casa, muchas encuestas por lectores de revistas musicales colocaban al grupo en la cima. Asimismo, Mercury gan&oacute; el Premio Ivor Novello por "Killer Queen".</p>
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+    	<center>Obras</center>	
+ 	 </div>
+</div>
+
+<div data-role="page" id="page3.4.4">
+	<div class="tit2" data-role="header">
+		<center>&diams; A Night at the Opera: &Eacute;xito &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+    	&nbsp; &nbsp; &nbsp;Se invirti&oacute; mucho tiempo para experimentar en el pr&oacute;ximo &aacute;lbum, probando las distintas sonoridades que se pod&iacute;an crear. En ese momento Freddie Mercury prod&uacute;jo, toc&oacute; el piano y cant&oacute; los coros para un sencillo de Eddie Howell, con un sonido similar a Queen. Hubo un punto de ruptura entre Trident y Queen, lo que provoc&oacute; que cancelasen una gira por Estados Unidos que estaba prevista, para precisamente resolver los problemas. Queen firm&oacute; un acuerdo independiente, pero directamente con EMI y Elektra. El grupo se encontraba moment&aacute;neamente sin gerente. En la b&uacute;squeda, surgieron varios candidatos: Peter Grant de Led Zeppelin -la idea era que su discograf&iacute;a, Swan Song Records produjera al<br>
+        grupo-, Peter Rudge -con quien no pudieron contactar- y el m&aacute;nager de Elton John, John Reid. En un principio, Reid no se encontraba seguro si podr&iacute;a con otro artista musical m&aacute;s, pero cambi&oacute;     		r&aacute;pidamente de idea cuando se enter&oacute; de que se trataba de Queen. Reid puso cien mil libras para resolver el acuerdo, adem&aacute;s de nombrar como abogado a Peter Beach para negociar el contrato existente con Trident, el acuerdo con aquella discogr&aacute;fica se disolvi&oacute; en 1975.
+		<p>&nbsp; &nbsp; &nbsp;Queen realiz&oacute; su primer video con "Bohemian Rhapsody", que cost&oacute; 4500 libras. Es considerado el primer corte con un verdadero video clip, siendo registrado por cinta de vídeo, en lugar de f&iacute;lmico. Recurrentemente es considerada como la mejor canci&oacute;n de la historia, su videoclip a su vez, es elegido tambi&eacute;n como el mejor. "Bohemian Rhapsody" se grab&oacute; en tres semanas, se usaron riffs de heavy metal como sobregrabaciones vocales. Puesto en sencillo en noviembre de 1975, fue su primer número uno en el Reino Unido, estuvo dieciocho meses en lista, rompiendo el r&eacute;cord de Paul Anka hab&iacute;a mantenido desde 1957 con "Diana". Adem&aacute;s, fu&eacute; n&uacute;mero nueve en los Estados Unidos, significando un importante avance. Otra vez, Queen reinaba en las encuestas musicales, otra vez Mercury gan&oacute; el Premio Ivor Novello, en esta ocasi&oacute;n fue por "Bohemian Rhapsody", corte que iba vendiendo un mill&oacute;n de copias solo   		en el Reino Unido.</p>
+        <p><img src="Imagenes/PHistoria/A+Night+at+the+Opera.png" align="right" width="300"></p>
+		<p>&nbsp; &nbsp; &nbsp;Publicaron el 21 de noviembre de 1975 el &aacute;lbum A Night at the Opera, siendo el &aacute;lbum m&aacute;s costoso nunca antes producido. Al igual que su antecesor, este nuevo trabajo de Queen experimenta con el sonido estereof&oacute;nico. Se usaron m&uacute;ltiples capas de guitarra de su antecesor como base, el &aacute;lbum experimenta con diversos g&eacute;neros como el metal de "Death on Two Legs" y "Sweet Lady", el pop de "You're My Best Friend", tambi&eacute;n hay un espacio de m&uacute;sica campestre en "Lazing on a Sunday Afternoon" y "Seaside Rendezvous", y rock progresivo en "'39" y "The Prophet's Song". Todos estos elementos se conjuntan para la pista pseudo &oacute;pera que se encuentra casi al final del &aacute;lbum, "Bohemian Rhapsody". El &aacute;lbum tiene alguna similitud con Led Zeppelin IV. En resumen, el &aacute;lbum termin&oacute; siendo bastante experimental y con un ligero toque de humor.</p>
+		<p>&nbsp; &nbsp; &nbsp;La primera canci&oacute;n del &aacute;lbum, "Death On Two Legs (Dedicated To...)", fue compuesta por Freddie Mercury, est&aacute; "dedicada" al exm&aacute;nager de la banda, Norman Sheffield, uno de los dueños de su anterior discogr&aacute;fica, Trident. La canci&oacute;n describe un duro retrato describiendo la animosidad de la banda con su antiguo representante. Pero en realidad la canci&oacute;n no da nombres, el t&iacute;tulo aparece "Dedicado a...". Solo se supo que estaba escrita sobre Sheffield cuando este present&oacute; una demanda contra Queen. La misma no tuvo efecto, ya que la canci&oacute;n no es expl&iacute;cita hacia persona alguna. Se edit&oacute; el 18 de mayo de 1976 el sencillo "You're My Best Friend", obra del bajista Deacon; se trata de una canci&oacute;n pop, adem&aacute;s de ser la primer canci&oacute;n de Deacon. Alcanz&oacute; el puesto n.º 7 y 16 en las listas brit&aacute;nicas y estadounidenses respectivamente. En "The Prophet's Song", una canci&oacute;n  		de ocho minutos, la secci&oacute;n central es un canon, con frases simples en capas para crear un amplio espectro de coros.</p>
+		<p>&nbsp; &nbsp; &nbsp;El lado cierra con la versi&oacute;n que May realiza del himno brit&aacute;nico que anteriormente ya ven&iacute;a culminando los recitales en vivo. A Night at the Opera represent&oacute; el comienzo de la aut&eacute;ntica masividad pues alcanz&oacute; el n.° 1, manteni&eacute;ndose en las listas brit&aacute;nicas por 50 semanas y el n.º 4 en Estados Unidos, lo que le permiti&oacute; obtener certificaci&oacute;n de oro, que alcanz&oacute; a platino en 2002.</p>
+		<p>&nbsp; &nbsp; &nbsp;Casualmente el lado B del sencillo es ocupado por el siguiente tema del &aacute;lbum: "'39", un country/folk escrito por Brian May, en el cual narra un viaje espacial que hace alusi&oacute;n a la teor&iacute;a que postula que si alguien viajara a velocidades cercanas a la luz, cuando este retornara a la tierra para el viajante solo habr&iacute;a pasado muy poco tiempo, mientras que para los que se quedaron en el planeta ya habr&iacute;an pasado generaciones (se debe tener presente en este punto los estudios de astronom&iacute;a por parte de su autor, Brian May). El lado B se inicia con la extensa (8 minutos con 20 segundos) "The Prophet's Song" de Brian May. Para su grabaci&oacute;n utiliza un toy koto, instrumento de cuerdas japon&eacute;s. En la mitad de la canci&oacute;n se produce un corte donde surge un intrincado juego de voces sobregrabadas. "Love of My Life" de Mercury es la balada del disco, se us&oacute; un arpa y armon&iacute;as vocales. Para ella Brian May recurre a un  		arpa. "Good Company", autor&iacute;a del guitarrista, es un charleston donde de modo magn&iacute;fico Brian May recrea una banda de dixieland con todos sus instrumentos solo a partir de los sonidos de su guitarra, grabada en varios tracks.</p>
+		<p>&nbsp; &nbsp; &nbsp;En 1975 concluye con un show grabado por la BBC en el Hammersmith Odeon. El siguiente año comienza con una gira por Jap&oacute;n, Australia y finalmente Estados Unidos. "Bohemian Rhapsody" ha sido elegida, muchas veces, como la mejor canci&oacute;n de todos los tiempos. La banda decidi&oacute; hacer un vídeo como apoyo para el sencillo; el resultado en general es considerado como el primer "verdadero" v&iacute;deo musical en producirse. Aunque otras bandas (incluyendo The Beatles), hab&iacute;an hecho con anterioridad algunos cortos filmes promocionales o v&iacute;deos de canciones, generalmente fueron realizados para presentaciones específicas o programas de televisi&oacute;n (tales como los v&iacute;deos de The Beatles para "Hey Jude" y "Revolution", los cuales fueron hechos espec&iacute;ficamente para ser emitidos en el programa televisivo Smothers Brothers).</p>
+		<p>&nbsp; &nbsp; &nbsp;El &aacute;lbum alcanz&oacute; el puesto n.º 4, pero además, alcanz&oacute; la certificaci&oacute;n de triple platino. En 2003, fue ubicado en el puesto n.º 230 de la lista de los 500 mejores &aacute;lbumes de todos los tiempos de la revista Rolling Stone, este descenso del &aacute;lbum fue muy criticado a la publicaci&oacute;n estadounidense, ya que en la mayor&iacute;a de encuestas se lo ubica en una posici&oacute;n superior. Luego de este trabajo, el grupo qued&oacute; establecido en la cima del estrellato. Emprendieron su tercera gira por Estados Unidos el 20 de enero de 1976, el primer recital fue el 27 de enero en Connecticut. Queen lleva consigo un nuevo m&aacute;nager, llamado Gerry Stickells quien organiza otras giras de Queen.</p>
+        <p>&nbsp; &nbsp; &nbsp;Durante septiembre de 1976 el grupo hizo una pequeña gira por el Reino Unido que concluy&oacute; el 18 de septiembre (sexto aniversario de la muerte de Jimi Hendrix), con un recital gratuito en el Hyde Park londinense ante 150 mil personas. Este evento colaps&oacute; el transporte p&uacute;blico. El show no fue completado debido a que la polic&iacute;a apag&oacute; la electricidad general del predio, al considerar que era demasiado tarde (fue el primer recital nocturno en el parque que antes hab&iacute;a alojado a The Rolling Stones en 1969). Los 150 mil espectadores tuvieron muchas dificultades para encontrar la salida. El recital fue transmitido por Capitol Radio. Tambi&eacute;n fue filmado, pero la pel&iacute;cula se deterior&oacute;, imposibilitando su publicaci&oacute;n. Luego del concierto la banda decidi&oacute; emprenderse en producir un nuevo &aacute;lbum, pero en esta ocasi&oacute;n, sin la mano de Roy Thomas Baker. Aquella separaci&oacute;n se produjo en            		t&eacute;rminos amistosos, y en noviembre de 1976, se edit&oacute; el sencillo avance del pr&oacute;ximo &aacute;lbum, "Somebody to Love", el v&iacute;deo muestra fragmentos del concierto en el Hyde Park.</p>
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+    	<center>Obras</center>	
+ 	 </div>
+</div>
+
+<div data-role="page" id="page3.4.5">
+	<div class="tit2" data-role="header">
+		<center>&diams; A Day at the Races &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">    	
+		&nbsp; &nbsp; &nbsp;El t&iacute;tulo A Day at the Races, editado en diciembre de 1976, era pr&aacute;cticamente en todos los sentidos una secuela de A Night at the Opera. El grupo resalta dicha caracter&iacute;stica en el nuevo &aacute;lbum, ya que ambos &aacute;lbumes cuentan con un arte de tapa y t&iacute;tulo similar. Este &uacute;ltimo factor, fue tomado de viejas pel&iacute;culas de los hermanos Marx. Aunque ambos discos tienen casi el mismo aspecto, A Day at the Races era mucho m&aacute;s estrecho que su predecesor. 
+        Como adelanto, el 12 de noviembre de 1976 se edit&oacute; el sencillo "Somebody to Love"/"White Man" que lleg&oacute; al puesto n.º 2 de las listas inglesas, permaneciendo all&iacute; durante 9 semanas. Mientras el lado uno es un gospel compuesto por Mercury, el segundo es un hard rock de Brian May que relata la conquista del oeste estadounidense desde la visi&oacute;n de un aborigen. El nuevo &aacute;lbum finalmente se lanz&oacute; el 10 de diciembre, permaneciendo 24 semanas en las listas brit&aacute;nicas, siendo la ubicaci&oacute;n n.º 2 el mayor puesto. Alcanz&oacute; el puesto n.º 5 en los Estados Unidos, para que al poco tiempo de su emisi&oacute;n llegue al disco de oro en los Estados Unidos y en el pa&iacute;s de origen del grupo.        
+		<p>&nbsp; &nbsp; &nbsp;Luego de una introducci&oacute;n con guitarras sobregrabadas, el &aacute;lbum se inicia con el hard rock "Tie Your Mother Down", escrito por May. "The Millionaire Waltz" obra de Mercury, incluye un solo de guitarra con fraseos de vals. El otro lado inicia con las dos canciones que precedieron al sencillo: "Somebody to Love" y "White Man". La &uacute;ltima canci&oacute;n del disco es "Teo Torriatte (Let us Cling Together)".</p>
+	</div>
+    <div class="tit2" data-role="header">
+		<center>&diams; A Day at the Races Tour &diams;</center>      
+  	</div>
+    <div class="fondo" data-role="content"> 
+    	<img src="Imagenes/PHistoria/A+Day+At+The+Races.png" align="right">   	
+		&nbsp; &nbsp; &nbsp;A principios de 1977, Queen comenz&oacute; una gira por Estados Unidos, en dicha gira interpretaron "Bohemian Rhapsody" en su totalidad, cuando antes solo hab&iacute;an tocado un fragmento de la misma como un medley. Tocaron por vez primera en febrero en el Madison Square Garden de Nueva York bajo el d&uacute;o de conjuntos Queen y Thin Lizzy, tambi&eacute;n en el Forum de Los &Aacute;ngeles. Aprovechando su estad&iacute;a en Hollywood visitan a Groucho Marx. En junio tocaron en el Earls Court de Londres. Mientras tanto, el 4 de marzo, deciden editar el segundo sencillo del &aacute;lbum, "Tie Your Mother Down"/"You and I", que, con cuatro semanas en la listas brit&aacute;nicas, alcanza el puesto n.º 31 y el n.º 49 en las listas estadounidenses.
+		<p>&nbsp; &nbsp; &nbsp;Finalizada la etapa americana de la gira, inician la manga europea del A Day At The Races Tour. Tras dos meses de recitales, &eacute;stos culminan el 6 y 7 de julio en el Earls Court de Londres, aprovechando el año de Jubileo de la Reina. El show cierra con un Medley de viejos rocanroles como "Lucille", "Jailhouse Rock" y "Stupid Cupid".</p>
+		<p>&nbsp; &nbsp; &nbsp;Fue en Earls Court, en donde apareci&oacute; por primera vez su famosa escenograf&iacute;a (parecida a una corona iluminada), dicha instalaci&oacute;n costo 5.000 libras esterlinas. Pero a diferencia de otras escenograf&iacute;as, esta era m&oacute;vil, dando inicio a la era de escenograf&iacute;as m&aacute;s atractivas en los conciertos de rock. Pese al atractivo que estas cosas producen, a la prensa musical en general no le caen bien. Muchos periodistas ven a Freddie Mercury, como "algo que esta mal", dentro del mundo del rock. Un caso, fue una entrevista entre Mercury y un periodista llamado Tony Stewart, la cual tuvo una comunicaci&oacute;n algo complicada, NME hab&iacute;a opinado que era m&aacute;s una confrontaci&oacute;n que una entrevista, muestra de ello era el t&iacute;tulo Is this Man a prat? (¿Este hombre es un imb&eacute;cil?). Esto solo ayud&oacute; a desintegrar la relaci&oacute;n entre la prensa y Queen. Taylor public&oacute; sorpresivamente un sencillo en agosto   		de 1977, "I Wanna Testify", que dio v&iacute;a libre a un sin fin de especulaciones por parte de la prensa sobre la posible disoluci&oacute;n de Queen. No obstante, el fantasma de los rumores de separaci&oacute;n estaban presentes desde 1973. Seg&uacute;n algunos medios de prensa, el baterista del conjunto estaba probando terreno para lanzarse solo, ya que no soportaba ser un compositor en un segundo plano.</p>
+		<p>&nbsp; &nbsp; &nbsp;D&iacute;as antes, el 20 de mayo, editaron su primer y &uacute;nico EP titulado justamente Queen's First EP, que inclu&iacute;a canciones conocidas: "Good Old-Fashioned Lover Boy", "Death On Two Legs (Dedicated To...)", "Tenement Funster" y "White Queen (As It Began)". El EP permaneci&oacute; diecisiete semanas en las listas, alcanzando el puesto n.º 10.</p>
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+  	</div>
+</div>
+
+<div data-role="page" id="page3.4.6">
+	<div class="tit2" data-role="header">
+		<center>&diams; News of the World &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+    	<img src="Imagenes/PHistoria/News+Of+The+World.png" align="left">
+    	&nbsp; &nbsp; &nbsp;Tras dos meses de grabaci&oacute;n, el 7 de octubre de 1977 aparece el primer resultado: el sencillo con doble lado A "We Will Rock You"/"We Are the Champions" (escritas por Brian May y Freddie Mercury respectivamente), que pasarían a convertirse en himnos utilizados en muchos acontecimientos deportivos, siendo consideradas pioneras en el Arena Rock o Stadium Rock. En el video clip aparece una multitud brindando los aplausos del tema, son miembros del club de fans de Queen. As&iacute; el 28 de octubre Queen puso a la venta el nuevo &aacute;lbum de estudio News of the World, &aacute;lbum que se pelea junto con The Game como el &aacute;lbum de estudio m&aacute;s vendido de Queen en Estados Unidos, donde alcanz&oacute; cuatro veces platino. News of the World lleg&oacute; al puesto cuatro en el Reino Unido, manteni&eacute;ndose en las listas por veinte semanas y al n.º 3 en Estados Unidos. La diversidad de g&eacute;neros en el nuevo trabajo discogr&aacute;fico contrasta con A Day at    		the Races. El &aacute;lbum comienza con las dos canciones ya citadas, emitidas en sencillo. Se resaltan canciones como el exc&eacute;ntrico pop ingl&eacute;s "All Dead, All Dead" y "It's Late" ambas compuestas por Brian May. El t&iacute;tulo del LP se basa en un c&oacute;mic de la d&racute;cada de 1930 y el diseño de tapa e interior fue encargado al dibujante Frank Kelly Freas. En febrero de 1978 se emiti&oacute; otro sencillo de News of the World, "Spread Your Wings"/"Sheer Heart Attack", alcanz&oacute; un lejano puesto n.º 34, durando s&oacute;lo 4 semanas.
+		<p>&nbsp; &nbsp; &nbsp;Cuando Queen grababa la canción "Sheer Heart Attack", Sex Pistols estaban registrando en un estudio adyacente. Mercury invit&oacute; a Sid Vicious al estudio a escuchar una canci&oacute;n de Queen, e intent&oacute; motivarlo para que &eacute;l cantase una canci&oacute;n para el grupo con estilo punk rock y que Sid hiciera lo mismo con una composici&oacute;n de Queen. Sin embargo, Mercury recibi&oacute; una rotunda negativa por parte del l&iacute;der punk.</p>
+		<p>&nbsp; &nbsp; &nbsp;En 1978, Queen emprende una gira por los Estados Unidos y Canad&aacute;, a su vez pas&oacute; gran parte de 1979 de gira en Europa y Japón. Queen toc&oacute; por tres noches en el Forest Nationale, a su m&aacute;xima capacidad, hecho in&eacute;dito para cualquier otro grupo. Al final del espect&aacute;culo, Taylor, Deacon y May, volaron para dirigirse a Musicland Studio's, con el objetivo de empezar el siguiente &aacute;lbum. Mercury se qued&oacute; en Inglaterra, en donde produjo junto a Roy Thomas Baker el &aacute;lbum This Ones on Me de Peter Strakers. En julio se reagruparon para registrar el &aacute;lbum. Mientras tanto, un fuerte temporal azot&oacute; a Montreux, Brian May sali&oacute; y grab&oacute; la tormenta, que se puede escuchar al final de la canción "Dead on Time". Por razones desconocidas, volvieron a contar con la ayuda de Roy Thomas Baker.</p>
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+    	<center>Obras</center>	
+ 	 </div>
+</div>
+
+<div data-role="page" id="page3.4.7">
+	<div class="tit2" data-role="header">
+		<center>&diams; Jazz &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+        <img src="Imagenes/PHistoria/Jazz.png" align="right">
+    	&nbsp; &nbsp; &nbsp;En noviembre de 1978 apareci&oacute; el &aacute;lbum Jazz. Al igual que el video de "Bicycle Race", el &aacute;lbum volvi&oacute; a la pol&eacute;mica, ya que inclu&iacute;a un p&oacute;ster con la foto de las cincuenta mujeres ciclistas desnudas. El regalo fue retirado del álbum, y fue reemplazado por un formulario de solicitud para reclamar el p&oacute;ster. Comercialmente fue inclusive mejor que su antecesor, ubic&aacute;ndose en el segundo puesto por 27 semanas, tambi&eacute;n tuvo repercusi&oacute;n en los Estados Unidos, lleg&oacute; al nº 6, tambi&eacute;n alcanz&oacute; el disco de oro tanto en el Reino Unido como en los Estados Unidos. Pero el nuevo &aacute;lbum fue duramente criticado.       
+        La revista Rolling Stone lo etiqueto de "fascista", adem&aacute;s de decir: "Queen no tiene creatividad para hacer jazz, Queen no tiene creatividad, por esta raz&oacute;n, para hacer rock and roll". Se destacan como sencillos de la nueva producci&oacute;n "Don't Stop Me Now" que fue n.º 9, permaneciendo en las listas por 35 semanas, y el doble lado A "Fat Bottomed Girls/Bicycle Race" que alcanz&oacute; un puesto n.º 11 y se encontr&oacute; en las listas por 12 semanas. Algunos fragmentos del video clip (de la segunda canción del doble A) muestra una carrera de mujeres desnudas en bicicleta, la ganadora apareci&oacute; de espaldas en la portada del sencillo, desnuda y andando en la bicicleta. 
+        La portada tuvo que ser censurada, dibuj&aacute;ndole (con el consentimiento de la banda) un bikini. NME imprimi&oacute; una nota con una foto de Freddie Mercury con el t&iacute;tulo Fat Bottomed Queen. Durante el año registran el pr&oacute;ximo &aacute;lbum en los estudios Mountain en Montreux. La banda queda sorprendida con el estudio, a tal punto de comprarlo.
+		<p>Otros sencillos que tuvieron un menor &eacute;xito fueron "Jealousy" y "Mustapha". Sin embargo, Queen ya se encontraba en el apogeo de su popularidad. Sigue teniendo sonidos diversos, como su antecesor, debido en gran parte a que sus cuatro componentes van hacia lados diferentes. La potente guitarra de Brian May le da un aire m&aacute;s pesado, en comparaci&oacute;n a News of the World. En posteriores entregas, May hab&iacute;a sido m&aacute;s consentido, en cambio, en Jazz Freddie Mercury se desboc&oacute; mucho m&aacute;s, cantando la apertura "Mustapha", "Fat Bottomed Girls" y "Bicycle Race". El baterista Roger Taylor compuso e interpret&oacute; una canci&oacute;n disco, de t&iacute;tulo "Fun It".</p>
+	</div>
+    <div class="tit2" data-role="header">
+		<center>&diams; Live Killers &diams;</center>     
+  	</div>
+	<div class="fondo" data-role="content">
+		&nbsp; &nbsp; &nbsp;En 1979 editan su primer &aacute;lbum en vivo titulado Live Killers, siendo todo un &eacute;xito. El &aacute;lbum fue producto de las grabaciones de la manga europea del Jazz Tour. El &aacute;lbum consigui&oacute; llegar a disco de oro en el Reino Unido, alcanzando el puesto n.º 3 encontr&aacute;ndose en las listas por 28 semanas. A pesar de llegar al n.º 16, gan&oacute; el doble disco de platino en Estados Unidos. El hecho de pasar parte de la canci&oacute;n "Bohemian Rhapsody" -la secci&oacute;n oper&iacute;stica- poniendo cintas pregrabadas, atrajo cr&iacute;ticas por parte de la prensa. El &aacute;lbum fue editado en los estudios de Musicland Studio en Múnich, (Alemania). Fue ah&iacute; en donde Queen se encontr&oacute; y entabl&oacute; relaciones laborales con el ingeniero Reinhart Mack (llamado simplemente Mack). Al conjunto le atrajo las ideas de Mack, a tal punto de tenerlo en los cr&eacute;ditos del siguiente &aacute;lbum.
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+    	<center>Obras</center>	
+ 	 </div>
+</div>
+
+<div data-role="page" id="page3.4.8">
+	<div class="tit2" data-role="header">
+		<center>&diams; The Game: Giro radical &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  </div>
+	<div class="fondo" data-role="content">
+        <img src="Imagenes/PHistoria/The+Game.png" align="right" width="400">
+		&nbsp; &nbsp; &nbsp;A finales de 1979 lanzaron el primer sencillo del &aacute;lbum The Game, "Crazy Little Thing Called Love" otro nº 2 que permaneci&oacute; en cartel por catorce semanas, fue el primer corte del &aacute;lbum, tiene un estilo rockabilly como Elvis Presley. Fue todo un &eacute;xito, cosechando su tercer &aacute;lbum n. 1 en el Reino Unido, adem&aacute;s de ser su primer disco de oro estadounidense e ingresando por 7 semanas en las listas ARIA de Australia. En diciembre de 1979 Queen toc&oacute; como banda de apertura en el Concerts for the People of Kampuchea en Londres, despu&eacute;s de haber aceptado una solicitud por el organizador del evento, Paul McCartney. En ese evento asistieron grupos como The Clash, The Pretenders, The Who y Elvis Costello. Cuando "Crazy Little Thing Called Love" era interpretada en vivo, Freddie Mercury tocaba la guitarra r&iacute;tmica, al igual que en la grabaci&oacute;n de estudio.
+		<p>&nbsp; &nbsp; &nbsp;El lanzamiento de la canci&oacute;n fue acompañado por una pequeña gira por el Reino Unido e Irlanda bajo el nombre de Crazy Tour a finales de 1979, en el cual se vio una diferencia en la puesta en escena de la banda con respecto a las giras anteriores que se mantendr&iacute;a durante los tours siguientes. Tocaron en lugares como Tiffany's en Purley, The Lewisham Odeon, Alexandra Palace y The Hammersmith Odeon. Fue en el Crazy Tour cuando el m&aacute;nager de gira, Gerry Stickells tuvo un colapso, fue llevado de urgencia a un hospital.</p>
+        <p>&nbsp; &nbsp; &nbsp;La canci&oacute;n "Another One Bites the Dust", escrita por John Deacon, fue su primer nº 1 en Estados Unidos. El sencillo era pasado en emisoras de radio de m&uacute;sica negra, pensando que la canci&oacute;n hab&iacute;a sido compuesta por un grupo de origen negro; algunas personas, desconociendo al conjunto, concurrieron a sus recitales, para su sorpresa, el grupo no estaba compuesto por gente negra. &Eacute;ste hecho produjo que el conjunto gire radicalmente, de sus tendencias hard rock, glam rock, a tendencias m&aacute;s pop rock de los años 1980. Los otros sencillos destacados fueron "Save Me" y "Play the Game". En el video de esta &uacute;ltima canción, aparece Freddie Mercury primera vez con su c&eacute;lebre bigote.</p>
+		<p>&nbsp; &nbsp; &nbsp;The Game fue el primer &aacute;lbum de Queen en usar sintetizadores, a pesar que anteriormente Mercury coment&oacute; que nunca los iba a usar, precisamente en "Play the Game" y "Another One Bites the Dust". El &aacute;lbum fue un &eacute;xito a nivel mundial, llegando al n.º 1 en casi toda Europa, Estados Unidos, Canad&aacute; y Sudam&eacute;rica. Este &eacute;xito los condujo a su primera gira sudamericana, que fue todo un &eacute;xito, present&aacute;ndose ante 479 mil personas en Sudam&eacute;rica, brindaron cinco recitales en Argentina, en uno de ellos llegaron a convocar 300.000, siendo una de las multitudes m&aacute;s grandes en conciertos argentinos. Atrajeron a 251.000 personas en el estadio de Morumbi de São Paulo. Luego del recital en Argentina, la venta de &aacute;lbumes aumenta considerablemente en aquel pa&iacute;s. El 9 de octubre de 1981, Queen toc&oacute; ante 150.000 personas en el Estadio Universitario, Monterrey.</p>
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+  	</div>
+</div>
+
+<div data-role="page" id="page3.4.9">
+	<div class="tit2" data-role="header">
+		<center>&diams; Flash Gordon &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  </div>
+	<div class="fondo" data-role="content">
+	    <img src="Imagenes/PHistoria/Flash+Gordon.png" align="left" width="180">
+		&nbsp; &nbsp; &nbsp;A partir de "The Game", comienzan a trabajar en la producci&oacute;n con Mack, que tambi&eacute;n trabajaba para Electric Light Orchestra. Sin embargo, el grupo fue perdiendo algo de terreno, especialmente en los Estados Unidos, cuando emitieron la banda sonora Flash Gordon (de la pel&iacute;cula del mismo nombre), con un fr&iacute;o recibimiento y ventas regulares. La idea de grabar una banda sonora provino mientras el grupo se encontraba en las sesiones de grabación de The Game, all&iacute; apareci&oacute; el director de cine italiano Dino De Laurentiis, quien les ofreci(oacute; grabar la banda sonora de su nueva pel&iacute;cula. No obstante esta intervenci&oacute;n permiti&oacute; que hasta la fecha, de todas las versiones de Flash Gordon la m&aacute;s recordada sea la de Dino de Laurentiis, la cual se promocionaba con la banda sonora de Queen. 
+	</div>
+    <div class="tit2" data-role="header">
+		<center>&diams; Greats Hit &diams;</center>      
+  </div>
+	<div class="fondo" data-role="content">
+		&nbsp; &nbsp; &nbsp;Tras el lanzamiento de Flash Gordon, Queen lanz&oacute; su primer recopilatorio, Greatest Hits. Este disco ha sido el m&aacute;s vendido de la historia del Reino Unido (estuvo 450 semanas en venta), siendo certificado disco de platino once veces. Cont&oacute; con grandes &eacute;xitos que iban desde el estilo rockabilly de "Crazy Little Thing Called Love", a la m&uacute;sica disco de "Another One Bites the Dust". El gobierno comunista de Hungr&iacute;a permiti&oacute; la publicaci&oacute;n de &aacute;lbumes de bandas extranjeras.
+	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+  	</div>
+</div>
+
+<div data-role="page" id="page3.4.10">
+	<div class="tit2" data-role="header">
+		<center>&diams; Hot Space &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">    	
+		&nbsp; &nbsp; &nbsp;Roger Taylor fue el primer miembro de Queen en publicar su material de solista. Public&oacute; su &aacute;lbum en solitario llamado Fun in Space en 1981.
+        <p><img src="Imagenes/PHistoria/Hot+Space.png" align="right"></p>
+		<p>&nbsp; &nbsp; &nbsp;Entre los meses de julio a septiembre de 1981, Queen se dirige a su estudio Mountain para grabar su siguiente &aacute;lbum, Hot Space. Casualmente, David Bowie se encuentra en Suiza, y acepta la invitaci&oacute;n del ingeniero David Richards para conocer a los miembros de Queen. Comienzan a improvisar cosas con Bowie, para despu&eacute;s darle m&aacute;s forma a una posible canci&oacute;n, surgiendo al final "Under Pressure", canci&oacute;n que aparece tanto en Greatest Hits como en Hot Space, adem&aacute;s de ser el primer corte n&uacute;mero uno en el Reino Unido. Esta fue la primera vez que Queen grab&oacute; con un artista invitado.</p>
+        <p>&nbsp; &nbsp; &nbsp;En 1982 aparece el &aacute;lbum Hot Space, duramente criticado por acercarse demasiado a un sonido "disco", aunque result&oacute; ser un &aacute;lbum de buena calidad (demostrando la versatilidad del grupo), los fans se encontraron relativamente fr&iacute;os, en consecuencia, el &aacute;lbum no alcanz&oacute; el platino y significo el peor lanzamiento de Queen (en cuestiones comerciales), desde Queen II. Parec&iacute;a que la guitarra de Brian May hab&iacute;a sido reemplazada por sintetizadores en algunas canciones del &aacute;lbum. Hecho que el mismo May afirmo en alguna entrevista, argumentando al igual que lo hizo NME en su momento, que Queen deb&iacute;a buscar diferentes caminos y sonidos. Pese a que la publicaci&oacute;n dec&iacute;a que el &aacute;lbum deb&iacute;a agradarle al p&uacute;blico, lo cierto es que muchos DJ -en Estados Unidos- no les gustaban las canciones, por ello no las pasaban, por lo que muchas personas no llegaron a escuchar el disco. Del            		&aacute;lbum se editaron tres sencillos en el Reino Unido (sin contar "Under Pressure"). Las canciones fueron "Body Language", "Las Palabras de Amor" y "Back Chat".</p>       
+		<p class="not">&nbsp; &nbsp; &nbsp;"En Argentina eramos los n&uacute;mero uno cuando estaba teniendo lugar esa guerra est&uacute;pida y pasamos unos momentos geniales all&iacute; ... La m&uacute;sica es totalmente internacional".</p>		
+        <p class="not" align="right">Roger Taylor</p>                
+        <p>&nbsp; &nbsp; &nbsp;Queen volvi&oacute; a aparecer en el Top of the Pops, despu&eacute;s de muchos años, realizando una interpretaci&oacute;n especial de "Las Palabras de Amor (The Words of Love)". Esto acontec&iacute;a justo cuando "Under Pressure" alcanza la cima de las listas holandesas y argentinas, justo cuando estallaba la Guerra de Malvinas. La dictadura gobernante de Argentina prohibi&oacute; las transmisiones radiales de canciones en ingl&eacute;s. Mientras que en Inglaterra la canci&oacute;n "Las Palabras de Amor", era vista como inapropiada.</p>        
+        <p>&nbsp; &nbsp; &nbsp;A finales de 1983 exist&iacute;an conflictos entre Elektra y Queen: Mercury no quer&iacute;a grabar m&aacute;s discos para el sello. Se encontraba molesto por la forma en que la casa discogr&aacute;fica estaba representando a Queen en Estados Unidos. Capitol Records se encontraba muy interesada en Queen, cosa que consigui&oacute;, cuando el grupo abandono Elektra por Capitol. Jim Beach y Gerry Stickells intentaron en primavera organizar un nuevo tour por Sudam&eacute;rica. Pero por problemas de equipos y promotores decidieron dar marcha atr&aacute;s.</p>
+        <p>&nbsp; &nbsp; &nbsp;Despu&eacute;s de trabajar de manera constante durante m&aacute;s de diez años, Queen decidi&oacute; no realizar shows en vivo en 1983. A principios de 1984, Freddie Mercury se encontraba realizando su &aacute;lbum solista, en el cual expresaba cosas que no pod&iacute;a en el contexto de Queen, situaciones m&aacute;s personales.</p>
+  </div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page3.4.11">
+	<div class="tit2" data-role="header">
+		<center>&diams; The Works &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+        <p><img src="Imagenes/PHistoria/The+Works.png" align="left"></p>   
+    	<p>&nbsp; &nbsp; &nbsp;El nuevo trabajo discogr&aacute;fico apareci&oacute; en 1984, llamado The Works, con el cual marcaron una vuelta al hard rock. Lleg&oacute; al segundo puesto con una permanencia de 93 semanas, al poco tiempo alcanz&oacute; el disco de platino. Pero en cambio, en los Estados Unidos solo fue n.º 23 en ventas, siendo un &eacute;xito menor, se presume que fue por el cambio de discogr&aacute;fica. Los cortes "Radio Ga Ga" y "I Want to Break Free" fueron muy exitosos, se hab&iacute;a usado material de la pel&iacute;cula Metr&oacute;polis, de Fritz Lang para hacer el video clip del primero. En el video de "I Want to Break Free" aparecen los miembros de Queen disfrazados de mujer queriendo ridiculizar la serie de la televisi&oacute;n brit&aacute;nica Coronation Street. Mercury recrea partes del ballet Debussy L'Apres-midi d'un faune. La MTV de los Estados Unidos 
+        rehus&oacute; pasar el video clip. Tambi&eacute;n destaca "Hammer to Fall", canci&oacute;n "obligatoria" en los shows en       		directo, que trata acerca de la guerra fr&iacute;a, y la balada "It's a Hard Life". El &aacute;lbum fue bien recibido por la cr&iacute;tica y tuvo buenas ventas a nivel mundial, aunque tuvo los cl&aacute;sicos detractores de los años 1980 que reclamaban una vuelta al sonido de la d&eacute;cada anterior. El disco lleg&oacute; al n.º 2 en Reino Unido y se mantuvo en las listas durante 94 semanas.</p>    
+		<p>&nbsp; &nbsp; &nbsp;Con la disminuci&oacute;n de popularidad en los Estados Unidos y la menguante popularidad en el Reino Unido, Queen decidi&oacute; explorar nuevos horizontes, para conseguir fans, realizaron giras por pa&iacute;ses del extranjero como tambi&eacute;n por Sudam&eacute;rica, Asia y &Aacute;frica, continentes ignorados por los grupos de rock, hasta aquel momento. En 
+        1983 se tomaron el año sab&aacute;tico.</p>              		
+		<p>&nbsp; &nbsp; &nbsp;En septiembre de 1984 Queen inicia su The Works Tour (primera gira con el tecladista Spike Edney), y realizaron una serie de nueve fechas (con entradas agotadas) de fechas en el estadio de Sun City, en Bophuthatswana, Sud&aacute;frica. Estuvieron involucrados en un pequeño esc&aacute;ndalo a ra&iacute;z de haber tocado durante el apogeo del apartheid. La banda respondi&oacute; a las cr&iacute;ticas argumentando que estaban tocando para fan&aacute;ticos de la m&uacute;sica de ese pa&iacute;s, y tambi&eacute;n hizo hincapi&eacute; en que los conciertos se desarrollaron ante un p&uacute;blico integrado.</p>
+        <p>&nbsp; &nbsp; &nbsp;A principios de 1985 se celebraron los British Video Awards. Queen gan&oacute; dos premios: uno The Works EP, una compilaci&oacute;n de videos del &aacute;lbum) y por el video de "Radio Ga Ga". Luego de realizar un concierto por Nueva Zelanda, ellos se dirigieron a Australia, haciendo una serie de ocho conciertos que se agotaron, en Melbourne y S&iacute;dney. En uno de esos recitales, la luces no funcionaban, al igual que la mayor&iacute;a de los micr&oacute;fonos, sin embargo Phil Collins dijo que todo andaba bien. Despu&eacute;s de Australia, se dirigieron hacia Jap&oacute;n.</p>
+  </div>
+  	<div class="tit2" data-role="header">
+		<center>&diams; Live Aid &diams;</center>     
+  	</div>
+	<div class="fondo" data-role="content">
+    	&nbsp; &nbsp; &nbsp;Posterior a un pequeño descanso, la banda comienza a ensayar para el concierto Live Aid. Finalmente tocaron el 13 de julio en el Live Aid, concierto destinado para luchar contra la hambruna de &Aacute;frica. En aquel recital, Queen fue visto por la mayor audiencia televisiva de la historia hasta el momento, con 1.9 millones de televidentes ante un p&uacute;blico de 72.000 personas. El organizador del show, Bob Geldof, adem&aacute;s de otras eminencias del ambiente musical como Elton John y Dave Grohl, y varios periodistas musicales dijeron que la actuación de Queen fue la mejor.   
+		<p>&nbsp; &nbsp; &nbsp;Queen fue presentado por los c(oacute;micos Mel Smith y Griff Rhys Jones, en el estadio de Wembley, donde brindaron una de sus mejores actuaciones, siendo votada varias veces como la mejor presentaci&oacute;n en vivo de la historia. Mercury ten&iacute;a una infecci&oacute;n en la garganta, su m&eacute;dico le hab&iacute;a recomendado no realizar el show. Tensiones existentes dentro del grupo como tambi&eacute;n posibles rumores de separaci&oacute;n del cuarteto, se propagaron mediante los peri&oacute;dicos musicales y columnas de chismes. Pero con la experiencia de haber atra&iacute;do a una masiva audiencia de gente diferente (de los cuales no todos eran seguidores de Queen), el grupo se motiv&oacute; para realizar otro trabajo en estudio.</p>      
+		<p>&nbsp; &nbsp; &nbsp;Freddie Mercury lanz&oacute; su primer disco de estudio, titulado Mr. Bad Guy en 1985. Aunque el mismo no tuvo masivas ventas, es un &aacute;lbum muy buscado y apreciado por los seguidores del conjunto brit&aacute;nico. En diciembre se hab&iacute;a publicado The Complete Works, box set con todos los discos de Queen hasta el momento.</p>
+  </div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page3.4.12">
+	<div class="tit2" data-role="header">
+		<center>&diams; A Kind of Magic: mayor &eacute;xito comercial &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+    	<img src="Imagenes/PHistoria/A+Kind+Of+Magic.png" align="left" width="330">
+    	&nbsp; &nbsp; &nbsp;A principios de 1986 sacan a la venta su disco A Kind of Magic que alcanz&oacute; el n.º 1 manteni&eacute;ndose en las listas durante 63 semanas. Fue muy distinta la recepci&oacute;n en los Estados Unidos, llegando solo al puesto n.º 46 y llegando al disco de oro en 2002. Mientras el cuarteto brit&aacute;nico iba perdiendo la atenci&oacute;n del p&uacute;blico estadounidense, en todo el resto del mundo (especialmente en Europa), el conjunto se segu&iacute;a manteniendo como una banda superestrella. El &aacute;lbum se encontraba constitu&iacute;do con canciones que fueron escritas para la pel&iacute;cula Highlander (Los Inmortales), interpretada por Christopher Lambert y Sean Connery. Varias canciones del &aacute;lbum se utilizaron en la pel&iacute;cula, sin embargo, Queen grab&oacute; e incluy&oacute; en el disco otras canciones que no aparecieron en esa pel&iacute;cula, haciendo de este &aacute;lbum una publicaci&oacute;n "propia", y no una banda sonora. Ese disco fue un gran      		&eacute;xito, gracias a la canci&oacute;n tambi&eacute;n titulada "A Kind of Magic", la balada "Who Wants to Live Forever", el tema principal de la pel&iacute;cula Highlander. Cuando Queen finaliz&oacute; su disco los diferentes sellos deciden ponerse de acuerdo para editar los distintos sencillos. La discogr&aacute;fica EMI propone lanzar "A Kind of Magic" y Capitol el tema "Princes of the Universe". Ambos videos fueron dirigidos por Russell Mulcahy. Mientras que "A Kind of Magic" llegaba al puesto n.º 3 en el Reino Unido, el corte "Princes of the Universe" pasaba desapercibido en Estados Unidos.
+        <p class="not">&nbsp; &nbsp; &nbsp;"No me gusta hacer lo mismo una y otra vez. Me gusta ver lo que está sucediendo en la música, el cine y el teatro e incorporar todas esas cosas".</p>		
+        <p class="not" align="right">Freddie Mercury</p> 
+ 	</div>
+  	<div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page3.4.12.3L">
+	<div class="tit2" data-role="header">
+		<center>&diams; Magic Tour &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">  
+    	&nbsp; &nbsp; &nbsp;En este contexto, Queen se embarc&oacute; en el Magic Tour con entradas agotadas para tocar en los estadios al aire libre de Europa. El grupo ensay&oacute; m&aacute;s de lo normal para este tour. Esta ser&iacute;a la &uacute;ltima gira de Queen con Freddie Mercury. Una de las actuaciones m&aacute;s recordadas del Tour fueron las dos fechas que realizaron en el estadio de Wembley (Reino Unido) ante unas 72.000 personas cada noche, vendi&eacute;ndose las entradas en solo seis horas. Este concierto en Wembley es adem&aacute;s el recital m&aacute;s recordado de Queen ya que se utiliz&oacute; el escenario más producido y grande, la plataforma de luces m&aacute;s extensa, la pantalla m&aacute;s gigante, cosas que hasta el momento el estadio nunca hab&iacute;a presenciado. El rodaje de los conciertos se realiz&oacute; con 15 c&aacute;maras, m&aacute;s un helic&oacute;ptero, para capturar tomas a&eacute;reas. El concierto fue grabado y en diciembre del mismo año publicaron Live Magic, su   		segundo disco en vivo, en el que compilan las mejores versiones extra&iacute;das de los conciertos de Wembley, Budapest y Knebworth Park celebrados tambi&eacute;n en el citado año. El concierto de Budapest fue publicado el 16 de febrero. Fue filmado por Mafilm, empresa que realiza filmaciones del gobierno, usaron todas las c&aacute;maras de 35 mm que hab&iacute;a disponibles en el país para registrar el recital. El recital de Wembley comenz&oacute; con un estilo heavy metal con "One Vision", luego siguió con la animada y din&aacute;mica "Tie Your Mother Down", adem&aacute;s de incluir el primer &eacute;xito del grupo "Seven Seas of Rhye". Tambi&eacute;n tocaron los cl&aacute;sicos "You're so Square (Baby I Don't Care)" y "Tutti Frutti" en donde Queen expuso sus ra&iacute;ces, luego interpretaron su "Crazy Little Thing Called Love" que de alguna manera encaja con la m&uacute;sica de la d&eacute;cada de los 50&acute;.
+		<p>&nbsp; &nbsp; &nbsp;Su &uacute;ltimo concierto fue el 9 de agosto de 1986 en "Knebworth Park" ante 120.000 personas. Las entradas se vendieron en dos horas. El Magic Tour fue visto por m&aacute;s de 1 millón de personas alrededor del mundo, siendo 400 mil en el Reino Unido, todo un r&eacute;cord. Fueron tambi&eacute;n las &uacute;ltimas presentaciones en vivo con Freddie Mercury. Los años siguientes anunciaron que no daban conciertos porque quer&iacute;an un tiempo de relajaci&oacute;n. Despu&eacute;s de haber realizado esta mega-gira, los miembros de la banda deciden tomarse un tiempo de descanso y cada uno emprende proyectos en solitario.<p>
+		<p>&nbsp; &nbsp; &nbsp;Despu&eacute;s de la serie de conciertos, a comienzos del 1987, Taylor y Deacon se fueron de vacaciones a Los &Aacute;ngeles, y May trat&oacute; de reordenar su vida personal. Freddie Mercury aprovech&oacute; el momento para trabajar en alg&uacute;n pr&oacute;ximo material solista. Cosecha sus frutos cuando publica el sencillo "The Great Pretender" el 23 de febrero, dirigido por David Mallet. En el video del nuevo corte, Mercury us&oacute; todos los disfraces que utiliz&oacute; en los recitales o videos clips con Queen. El sencillo se convierte en el m&aacute;s famoso del artista, llegando al puesto n.º 4. Queen volvi&oacute; a ganar el Premio Ivor Novello el 15 de abril de 1987.</p>
+		<p>En los posteriores &aacute;lbumes, Queen dej&oacute; de ser una importante fuerza comercial en los Estados Unidos, los siguientes discos no llegaron a alcanzar siquiera el oro, o no tuvieron la repercusi&oacute;n que los antecesores. No obstante, las actuaciones del grupo y su popularidad se mantenían en un estado normal.</p>
+  	</div>
+    <div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page3.4.13">
+	<div class="tit2" data-role="header">
+		<center>&diams; The Miracle &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">
+    	<img src="Imagenes/PHistoria/The+Miracle.png" align="left">   	
+    	&nbsp; &nbsp; &nbsp;Despu&eacute;s de su gran gira por los estadios europeos en 1986 para la promoci&oacute;n de A Kind of Magic, Queen tom&oacute; un largo descanso. Por ese receso, corrieron rumores de una posible disoluci&oacute;n del cuarteto. Pero result&oacute; que la pausa era producto de un divorcio en uno de sus miembros, el guitarrista Brian May (posteriormente luch&oacute; contra la depresi&oacute;n y el suicidio), y Freddie Mercury a quien se le fue diagnosticado Sida. Ellos decidieron reagruparse y seguir trabajando, en efecto, emitieron uno de sus &aacute;lbumes m&aacute;s inspirados, The Miracle, el 22 de mayo de 1989. El disco lleg&oacute; al n.º 1 manteni&eacute;ndose por 32 semanas en lista para al poco tiempo alcanzar el disco platino en el Reino Unido. Alcanz&oacute; el puesto n.º 24 en los Estados Unidos. El sencillo que recogi&oacute; mayor &eacute;xito fue "I Want It All", 
+        que lleg&oacute; al n&uacute;mero uno en varios pa&iacute;ses, y al n.º 3 en el Reino Unido manteni&eacute;ndose por 7 semanas en listas. "Breakthru", "The Miracle", "The Invisible Man", y en menor medida "Scandal", tambi&eacute;n logran posicionarse en los primeros lugares, reforzados por videoclips de gran calidad que apoyaron su difusi&oacute;n. Las letras de los temas tienden a reflexionar sobre los logros pasados del grupo ("Khashoggi's Ship" y "Was It All Worth It"), as&iacute; como tambi&eacute;n, piensan en el estado del mundo en los años 1980 (la canci&oacute;n principal "I Want It All"). Las canciones se encontraban acreditadas a 'Queen' y no a miembros de la banda, la portada consiste en la uni&oacute;n de las caras de los cuatro integrantes, usando un Quantel Paintbox, para dar ese raro efecto.
+		<p>&nbsp; &nbsp; &nbsp;Queen no brindaba entrevista como grupo conjunto hace un largo periodo de tiempo, fueron llamados para dar una entrevista con Mike Reid, y finalmente el 29 de mayo de 1989 dieron una nueva entrevista. Durante la entrevista Freddie describe el porqu&eacute; de su negativa a salir de gira, que &eacute;l quer&iacute;a cambiar el ciclo de disco-gira. Se ten&iacute;a en mente editar un Greatest Hits II, pero debido a las buenas ventas de The Miracle, se abort&oacute; esta decisi&oacute;n. Se pens&oacute; que si publicar&iacute;an un disco compilatorio, perjudicar&iacute;a las ventas del nuevo &aacute;lbum de estudio. El año 1989 finaliz&oacute; con la emisi&oacute;n de The Miracle Video EP, oportunamente para Navidad. En la cinta de video aparecen todos los videos del &aacute;lbum. Queen obtuvo el galard&oacute;n de la BPI por su destacada contribuci&oacute;n a la m&uacute;sica brit&aacute;nica, realizaron una fiesta en conmemoraci&oacute;n de los 20 años del grupo. La fiesta se         		realiz&oacute; en un club Soho llamado Groucho's. Todas aquellas personas que hab&iacute;an trabajado alguna vez con Queen fueron citadas para la celebración. El grupo decide terminar su contrato con Capitol en los Estados Unidos, firmando un nuevo acuerdo con Hollywood Records, por una suma superior a los 10 millones de d&oacute;lares. Renunciaron a EMI para la distribución mundial. Una de las primeras cosas que hizo Hollywood Records fue reeditar toda la discograf&iacute;a de Queen (a excepci&oacute;n de Live Killers) en el nuevo y novedoso formato de CD.</p>
+  	</div>
+    <div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page3.4.14">
+	<div class="tit2" data-role="header">
+		<center>&diams; Innuendo &diams;</center>
+        <a href="#page3.4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>        
+        <a href="#page3"><button>&image; Historia &image;</button></a>      
+  	</div>
+	<div class="fondo" data-role="content">  
+    	<img src="Imagenes/PHistoria/Innuendo.png" align="left" width="200">  	  
+        &nbsp; &nbsp; &nbsp;Volvieron al oro con Innuendo de principios de 1991, mientras solo era n.º 30 en los Estados Unidos, en el Reino Unido se fue al n. ° 1, encontr&aacute;ndose en las listas por 37 semanas y ganando el disco de platino. A pesar del debilitado estado de salud de Mercury, &eacute;l insisti&oacute; en hacer un nuevo trabajo, su &uacute;ltimo &aacute;lbum result&oacute; ser Innuendo. Aunque no recibieron los mismos elogios de la cr&iacute;tica especializada como su predecesor, The Miracle de 1989, fue otro &aacute;lbum de gran &eacute;xito mundial. Las letras son evidentemente autobiogr&aacute;ficas del punto de vista de Mercury, como "These Are the Days of Our Lives" y "The Show Must Go On". Se incluye una composici&oacute;n que habla de la imposibilidad que tiene la humanidad de vivir en armon&iacute;a, "All God's People". Tambi&eacute;n hay un tributo humor&iacute;stico a los gatos, el animal favorito de Mercury, "Delilah".
+  	</div>
+    <div class="tit2" data-role="header">
+		<center>&diams; Mercury/Montserrat Caball&eacute; &diams;</center>     
+  	</div>
+	<div class="fondo" data-role="content">     
+        &nbsp; &nbsp; &nbsp;En marzo de 1987 Freddie Mercury se re&uacute;ne con la cantante de &oacute;pera Montserrat Caball&eacute; en el Ritz de Barcelona. En su primera reuni&oacute;n se pusieron de acuerdo para grabar un disco juntos. Al domingo siguiente, Caball&eacute; incluy&oacute; el tema "Exercises in Free Love" en el bis de su recital en el Covent Garden de Londres. En la audiencia se encontraba Freddie Mercury. Cant&oacute; "Exercises In Free Love", una de las canciones que Freddie hab&iacute;a cantando junto a ella en su primer encuentro. El trabajo entre Mercury y Montserrat comenz&oacute;. La experiencia del d&uacute;o fue rara para ambas partes. El &aacute;lbum tardo 9 meses en grabarse.
+		<p>&nbsp; &nbsp; &nbsp;La canci&oacute;n "Barcelona" es el primer registro emitido del d&uacute;o Mercury-Caball&eacute;. En España, el corte vendi&oacute; 10 mil copias en tres horas. La canci&oacute;n fue usada por el Comit&eacute; Ol&iacute;mpico Español como el tema principal de los Juegos Ol&iacute;mpicos de Barcelona 1992. El sencillo alcanz&oacute; el puesto n.º 8 en el Reino Unido.</p>
+		<p>&nbsp; &nbsp; &nbsp;Hacia el año 1985, Mercury inici&oacute; una relaci&oacute;n de larga duraci&oacute;n con un peluquero llamado Jim Hutton, con qui&eacute;n vivi&oacute; los &uacute;ltimos 6 años de su vida. Hutton falleci&oacute; de c&aacute;ncer de pulm&oacute;n el 1 de enero de 2010.</p>
+  	</div>
+    <div data-role="footer">		               
+    	<a href="#page"><button>&hearts; Inicio &hearts;</button></a><center>Obras</center>	
+ 	</div>
+</div>
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+<!-------------------------------------------------HISTORIA/OBRAS--------------------------------------------------------->
+
+<div data-role="page" id="page3.5">
+	<div class="tit2" data-role="header">
+		<center>&diams; Fallecimiento de Freddie Mercury &diams;</center>
+        <a href="#page3"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">	    	 	
+		&nbsp; &nbsp; &nbsp;Seg&uacute;n declaraciones brindadas por su pareja, Jim Hutton, a Mercury se le diagnostic&oacute; SIDA despu&eacute;s de la Pascua de 1987. Por aquella &eacute;poca, Mercury dijo en una entrevista no padecer esta enfermedad, tanto &eacute;l como el resto del grupo mantuvieron este hecho en el absoluto silencio. Pero pese a las negaciones, la prensa brit&aacute;nica aliment&oacute; rumores sobre esta posible enfermedad debido a la apariencia demacrada de Mercury y a que Queen no realizaba giras ni conciertos desde hace varios años. Hacia el final de su vida, muchos periodistas le tomaron fotograf&iacute;as, mientras que The Sun suger&iacute;a que estaba realmente muy enfermo. En ese momento sal&iacute;an al mercado cortes en solista del artista como "The Great Pretender" y "Time", adem&aacute;s del disco grabado con la cantante de &oacute;pera Montserrat Caball&eacute; titulado Barcelona. Todo esto suced&iacute;a en la &eacute;poca de la publicaci&oacute;n de Innuendo.
+		<p>&nbsp; &nbsp; &nbsp;El 22 de noviembre de 1991, Mercury llam&oacute; al m&aacute;nager de Queen, Jim Beach, para discutir un asunto p&uacute;blico. Al d&iacute;a siguiente, se realiz&oacute; el siguiente anuncio en nombre del cantante:
+        <p class="not">&nbsp; &nbsp; &nbsp;Siguiendo la enorme conjetura de la prensa de las &uacute;ltimas dos semanas, es mi deseo confirmar que padezco sida. Sent&iacute; que era correcto mantener esta informaci&oacute;n en privado hasta el d&iacute;a de la fecha para proteger la privacidad de los que me rodean. Sin embargo, ha llegado la hora de que mis amigos y seguidores conozcan la verdad y espero que todos se unan a m&iacute; y a mis m&eacute;dicos para combatir esta terrible enfermedad. Mi privacidad ha sido siempre muy importante para m&iacute; y soy famoso por pr&aacute;cticamente no dar entrevistas. Esta pol&iacute;tica continuar&aacute;.</p>
+        <p class="not" align="right">Freddie Mercury</p>        
+        <p>&nbsp; &nbsp; &nbsp;Apenas dos d&iacute;as despu&eacute;s de aquel comunicado, Mercury perdi&oacute; su batalla contra aquella enfermedad, falleciendo a las 7 PM en su mansi&oacute;n de Londres, ten&iacute;a 45 años. La &uacute;ltima aparici&oacute;n p&uacute;blica del cuarteto fue en la entrega de los premios Brit Awards de 1990, por la contribuci&oacute;n que tuvo Queen en la m&uacute;sica brit&aacute;nica. Las oficinas de Queen quedaron inundadas por flores en conmemoración del artista. El d&iacute;a 27 de noviembre sus restos fueron cremados en el West London Crematorium.</p>
+		<p>&nbsp; &nbsp; &nbsp;La canci&oacute;n "Bohemian Rhapsody" fue re-editada como sencillo poco despu&eacute;s del deceso de Mercury 1991, con "These Are the Days of Our Lives" como doble lado A (del &aacute;lbum Innuendo). El sencillo lleg&oacute; al n&uacute;mero uno, puesto en el que se mantuvo 5 semanas y permaneci&oacute; 16 en las listas de venta. El &eacute;xito de la re-edici&oacute;n se produjo -en parte- gracias a la c&eacute;lebre escena de la pel&iacute;cula Wayne's World, en donde los personajes Wayne (Mike Myers) y Garth (Dana Carvey) junto a unos compañeros cantan "Bohemian Rhapsody", la cual suena en la radio del coche. La versi&oacute;n original hab&iacute;a estado un total de 9 semanas al tope de las listas entre 1975 y 1976 (diecisiete en listas). Por eso "Bohemian Rhapsody" se convirti&oacute; en la primera canci&oacute;n en llegar al n&uacute;mero uno (en su versi&oacute;n original) en dos oportunidades distintas, adem&aacute;s de lograr la cantidad de 14 semanas en lo m&aacute;s alto 	 	(nueve en la original, como se mencionaba, y otras cinco en la segunda edici&oacute;n). La recaudaci&oacute;n inicial del sencillo <br>
+        –aproxim&aacute;damente &euro; 1.000.000– fueron donados a la fundación Terrence Higgins Trust. Ir&oacute;nicamente el grupo se encontraba en una etapa de mayor popularidad. Se edit&oacute; un &aacute;lbum p&oacute;stumo de Freddie Mercury en solista en 1992.</p>
+		<p>&nbsp; &nbsp; &nbsp;Freddie Mercury fue premiado de forma p&oacute;stuma en los Brit Awards en el año 1992, por su destacada contribuci&oacute;n musical, mientras que Queen gan&oacute; el premio a mejor sencillo con "These are the Days of our Lives", perteneciente al disco Innuendo, de posterior emisi&oacute;n al deceso de Mercury.</p>
+		<p class="not">Todo ese tiempo durante el cual sab&iacute;amos que Freddie ya iba en la recta final, mantuvimos nuestras cabezas bajas.</p>		
+        <p class="not" align="right">Brian May</p>
+	</div>
+	<div data-role="footer">
+		<h4>Historia</h4>
+	</div>
+</div>	        
+
+<div data-role="page" id="page3.6">
+	<div class="tit2" data-role="header">
+		<center>&diams; Despues de Mercury &diams;</center>
+        <a href="#page3"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+    <div class="tit2" data-role="header">
+		<center>&diams; Greats Hits II &diams;</center>
+	</div>
+	<div class="fondo" data-role="content"> 	
+		&nbsp; &nbsp; &nbsp;Un mes antes de la muerte de Freddie, el 28 de octubre de 1991, EMI hab&iacute;a publicado el segundo recopilatorio de grandes &eacute;xitos, Greatest Hits II, que inclu&iacute;a 17 de los mayores hits del grupo entre 1981 y 1991. Este &aacute;lbum debut&oacute; en el n&uacute;mero uno de las listas de venta de Reino Unido. Curiosamente comenz&oacute; a bajar posiciones: en la segunda semana baj&oacute; al nº2, en la siguiente al nº3, pero lo m&aacute;s curioso, en la cuarta semana el disco descendi&oacute; al sexto lugar (en esa semana Dangerous de Michael Jackson hizo un ingreso triunfal al n&uacute;mero uno). Obviamente, ya en su quinta semana, el &aacute;lbum regres&oacute; a lo m&aacute;s alto (esta vez con ventas m&aacute;s elevadas) y se mantuvo en esa posici&oacute;n durante otras cuatro semanas. En total, el &aacute;lbum estuvo cinco semanas en lo m&aacute;s alto, y con s&oacute;lo ocho semanas en las listas, fue el tercer disco m&aacute;s vendido de 1991, luego de recibir el 		cu&aacute;druple platino por 1.200.000.
+		<p>&nbsp; &nbsp; &nbsp;Sin embargo, el &eacute;xito del Greatest Hits II fue incluso mayor en otros pa&iacute;ses de Europa. En Holanda, el &aacute;lbum lleg&oacute; al n&uacute;mero uno en las dos &uacute;ltimas semanas de 1991, y se mantuvo en esa posici&oacute;n hasta comienzos de marzo de 1992 (un total de 11 semanas consecutivas). En mayo de ese año, el disco volvi&oacute; a lo m&aacute;s alto, esta vez dos semanas, para completar el per&iacute;odo de 13 en lo m&aacute;s alto. El &aacute;lbum obtuvo la certificación de 5 discos de platino en 1997 (por 500.000 copias). En este pa&iacute;s, tanto The Miracle como Innuendo hab&iacute;an llegado al n&uacute;mero uno, permaneciendo 3 y 4 semanas en esa posici&oacute;n respectivamente.</p>
+		<p>&nbsp; &nbsp; &nbsp;El disco lleg&oacute; al n&uacute;mero uno en Suiza (11 semanas), Austria (3 semanas), Finlandia, Italia (12 semanas), España (8 semanas), Francia (4 semanas) y Portugal. Tambi&eacute;n lleg&oacute; al n&uacute;mero dos en Alemania y Suecia. Queen, adem&aacute;s, fue la banda que m&aacute;s discos vendi&oacute; entre 1991 y 1992 en Reino Unido, Holanda, Suiza, Austria, Alemania, Finlandia, Dinamarca, España, Italia, Portugal, Francia y Argentina, entre otros.</p>
+	</div>
+    <div class="tit2" data-role="header">
+		<center>&diams; Concierto tributo &diams;</center>     
+  	</div>
+	<div class="fondo" data-role="content"> 	
+		&nbsp; &nbsp; &nbsp;Se realiz&oacute; el tributo a Mercury el 20 de abril de 1992, en el estadio de Wembley, Londres. Entre los artistas invitados estuvieron Annie Lennox, David Bowie, Def Leppard, Elizabeth Taylor, Elton John, Extreme, George Michael, Guns N' Roses, Ian Hunter, Lisa Stansfield, Liza Minnelli, Metallica, Mick Ronson, Robert Plant, Roger Daltrey, Spinal Tap, Tony Iommi y Zucchero, junto a los tres miembros restantes de Queen, interpretando varios de los &eacute;xitos m&aacute;s grandes de la banda. El concierto est&aacute; registrado en el Libro Guinness de R&eacute;cords como "El concierto ben&eacute;fico con m&aacute;s estrellas de rock". Se recaudaron m&aacute;s de &euro; 20.000.000 destinados a obras caritativas para el Mercury Phoenix Trust, una conciencia sobre el sida y el fondo de educaci&oacute;n establecido por los miembros del grupo y su m&aacute;nager, Jim Beach. Al concierto concurrieron 72.000 personas y fue visto en televisión por mil millones de espectadores de todo el     		mundo.
+		<p>&nbsp; &nbsp; &nbsp;Una semana despu&eacute;s, EMI publica el concierto de Wembley de 1986 en formato CD y, con el impacto que provoc&oacute; la trasmisi&oacute;n del reciente concierto, se convirti&oacute; en un gran &eacute;xito. El &acute;lbum lleg&oacute; al n&uacute;mero uno en Italia, donde se mantuvo 5 semanas y vendi&oacute; 300.000 copias durante ese año, y tambi&eacute;n en Portugal. El &aacute;lbum tambi&eacute;n lleg&oacute; al n&uacute;mero dos en Reino Unido, España y Francia.</p>
+	</div>
+    <div class="tit2" data-role="header">
+		<center>&diams; Made in Heaven &amp; No-One But You &diams;</center>      
+  	</div>
+	<div class="fondo" data-role="content"> 
+    	<img src="Imagenes/PHistoria/Made+In+Heaven.png" align="left" width="450">  	        
+		&nbsp; &nbsp; &nbsp;En 1995, Queen logr&oacute; completar el &aacute;lbum Made in Heaven. Con grandes ventas, lleg&oacute; al nº. 1 en Reino Unido y al nº. 58 en Estados Unidos, trat&aacute;ndose del &aacute;lbum de estudio m&aacute;s vendido en la historia de Queen. Cuenta con las voces grabadas por Mercury en el &uacute;ltimo año de su vida, adem&aacute;s de sacar el &uacute;ltimo material que grab&oacute; con el grupo. En 1995, una estatua del artista se present&oacute; en Montreux, Suiza.
+        <p>&nbsp; &nbsp; &nbsp;Dos años m&aacute;s tarde, en 1997, Brian May, Roger Taylor y John Deacon se re&uacute;nen nuevamente en un estudio para grabar el que hasta el d&iacute;a de hoy es el tema final de Queen, titulado "No-One But You (Only The Good Die Young)", que fue publicado como single y dentro del recopilatorio Queen Rocks, una colecci&oacute;n de cortes rockeros que recorren toda su carrera desde Queen hasta Innuendo, omitiendo solo los &aacute;lbumes The Game y Made In Heaven.</p>
+		<p>&nbsp; &nbsp; &nbsp;En ese mismo año, 1997, John Deacon se retir&oacute; definitivamente de la m&uacute;sica, considerando que Queen hab&iacute;a terminado y que fuera del grupo no ten&iacute;a ning&uacute;n proyecto musical m&aacute;s en el que le apeteciera participar. </p>
+	</div>
+	<div data-role="footer">
+		<h4>Historia</h4>
+	</div>
+</div>
+     		
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+<!----------------------------------------------------HISTORIA------------------------------------------------------------>
+
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<div data-role="page" id="page4">
+	<div class="tit2" data-role="header">
+		<center>&diams; Discograf&iacute;a &diams;</center>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div data-role="content">
+    	<ul data-role="listview">
+			<li class="menu"><a href="#page4.1"><center>&diams; Queen (1973) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.2"><center>&diams; Queen II (1974) &diams;</center></a></li>
+			<li class="menu"><a href="#page4.3"><center>&diams; Sheer Heart Attack (1974) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.4"><center>&diams; A Night at the Opera (1975) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.5"><center>&diams; A Day at the Races (1976) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.6"><center>&diams; News of the World (1977) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.7"><center>&diams; Jazz (1978) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.8"><center>&diams; The Game (1980) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.9"><center>&diams; Flash Gordon (1980) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.10"><center>&diams; Hot Space (1982) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.11"><center>&diams; The Works (1984) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.12"><center>&diams; A Kind of Magic (1986) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.13"><center>&diams; The Miracle (1989) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.14"><center>&diams; Innuendo (1991) &diams;</center></a></li>
+            <li class="menu"><a href="#page4.15"><center>&diams; Made in Heaven (1995) &diams;</center></a></li>
+		</ul>			
+	</div>
+	<div data-role="footer">
+		<h4>Queen</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4.1">
+	<div class="tit2" data-role="header">
+		<center>&diams; Queen &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="11"><img src="Imagenes/PHistoria/(1973) Queen.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Keep Yourself Alive</td>
+                <td>3:48</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Doing All Right</td>
+                <td>4:10</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Great King Rat</td>
+                <td>5:42</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>My Fairy King</td>
+                <td>4:08</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Liar</td>
+                <td>6:27</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>The Night Comes Down</td>
+                <td>4:24</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Modern Times Rock &acute;n&acute;</td>
+                <td>1:49</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Son and Daughter</td>
+                <td>3:21</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Jesus</td>
+                <td>3:45</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Seven Seas of Rhye</td>
+                <td>1:10</td>
+                <td>Freddie Mercury</td>
+            </tr>
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.2">
+	<div class="tit2" data-role="header">
+		<center>&diams; Queen II &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="12"><img src="Imagenes/PHistoria/Queen+II.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Procession</td>
+                <td>1:13</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Father to Son</td>
+                <td>6:14</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>White Queen (As It Began)</td>
+                <td>4:37</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Some Day One Day</td>
+                <td>4:23</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>The Loser in the End</td>
+                <td>4:04</td>
+                <td>Roger Meddows-Taylor</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Ogre Battle</td>
+                <td>4:08</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>The Fairy Feller&acute;s Master</td>
+                <td>2:41</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Nevermore</td>
+                <td>1:19</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>The March of the Black Queen</td>
+                <td>6:34</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Funny How Love Is</td>
+                <td>2:50</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>11</td>
+                <td>Seven Seas of Rhye</td>
+                <td>2:50</td>
+                <td>Freddie Mercury</td>
+            </tr>
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.3">
+	<div class="tit2" data-role="header">
+		<center>&diams; Sheer Heart Attack &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="14"><img src="Imagenes/PHistoria/(1974) Sheer Heart Attack.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Brighton Rock</td>
+                <td>5:11</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Killer Queen</td>
+                <td>3:00</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Tenement Funster</td>
+                <td>2:47</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Flick of the Wrist</td>
+                <td>3:19</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Lily of the Vallery</td>
+                <td>1:43</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Now I&acute;m Her</td>
+                <td>4:15</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>In the Lap of the Gods</td>
+                <td>3:23</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Ston Cold Crazy</td>
+                <td>2:17</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Dear Friends</td>
+                <td>1:09</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Misfire</td>
+                <td>1:50</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>11</td>
+                <td>Bring Back That Leory Brown</td>
+                <td>2:15</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>12</td>
+                <td>She Makes Me (Stormtrooper in Stilettoes)</td>
+                <td>4:10</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>13</td>
+                <td>In the Lap of the Gods...Revisited</td>
+                <td>3:46</td>
+                <td>Freddie Mercury</td>
+            </tr>
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.4">
+	<div class="tit2" data-role="header">
+		<center>&diams; A Night at the Opera &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="13"><img src="Imagenes/PHistoria/A+Night+at+the+Opera.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Death On Two Legs</td>
+                <td>3:43</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Lazing On A Sunday Afternoon</td>
+                <td>1:07</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>I&acute;m In Love With My Car</td>
+                <td>3:04</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>You&acute;re My Best Friends</td>
+                <td>2:52</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>&acute;39</td>
+                <td>3:30</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Sweet Lady</td>
+                <td>4:03</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Seaside Rendezvous</td>
+                <td>2:19</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>The Prophet&acute;s Song</td>
+                <td>8:20</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Love of My Life</td>
+                <td>3:38</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Good Company</td>
+                <td>1:15</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>11</td>
+                <td>Bohemian Rhapsody</td>
+                <td>5:53</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>12</td>
+                <td>God Save The Queen</td>
+                <td>1:15</td>
+                <td>Brian May</td>
+            </tr>
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.5">
+	<div class="tit2" data-role="header">
+		<center>&diams; A Day at the Racers &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="11"><img src="Imagenes/PHistoria/A+Day+At+The+Races.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Tie Your Mother Down</td>
+                <td>4:48</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>You Take My Breath Away</td>
+                <td>5:09</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Long Away</td>
+                <td>3:34</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>The Millionaire Waltz</td>
+                <td>4:55</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>You and I</td>
+                <td>3:26</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Somebody to Love</td>
+                <td>4:57</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>White Man</td>
+                <td>3:00</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Good Old-Fashioned Lover Boy</td>
+                <td>2:54</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Drowse</td>
+                <td>3:46</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Teo Torriatte (Let Us Cling Together)</td>
+                <td>5:54</td>
+                <td>Brian May</td>
+            </tr>            
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.6">
+	<div class="tit2" data-role="header">
+		<center>&diams; News of the World &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="12"><img src="Imagenes/PHistoria/News+Of+The+World.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>We Will Rock You</td>
+                <td>2:02</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>We Are the Champions</td>
+                <td>3:02</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Sheer Heart Attack</td>
+                <td>3:28</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>All Dead, All Dead</td>
+                <td>3:11</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Spread Your Wings</td>
+                <td>4:35</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Fight From the Inside</td>
+                <td>3:04</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Get Down, Make Love</td>
+                <td>3:52</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Sleeping On the Sidewalk</td>
+                <td>3:04</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Who Needs You</td>
+                <td>3:09</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>It&acute;s Late</td>
+                <td>3:07</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>11</td>
+                <td>My Melancholy Blues</td>
+                <td>3:31</td>
+                <td>Freddie Mercury</td>
+            </tr>            
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.7">
+	<div class="tit2" data-role="header">
+		<center>&diams; Jazz &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="14"><img src="Imagenes/PHistoria/Jazz.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Mustapha</td>
+                <td>3:02</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Fat Bottomed Girls</td>
+                <td>4:17</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Jealousy</td>
+                <td>3:14</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Bycicle Race</td>
+                <td>3:04</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>If You Can&acute;t Beat Them</td>
+                <td>4:15</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Let Me Entertain You</td>
+                <td>3:02</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Dead On Time</td>
+                <td>3:23</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>In Only Seven Days</td>
+                <td>2:30</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Dreamer&acute;s Ball</td>
+                <td>3:31</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Fun It</td>
+                <td>3:30</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>11</td>
+                <td>Leaving Home Ain&acute;t Easy</td>
+                <td>3:15</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>12</td>
+                <td>Don&acute;t Stop Me Now</td>
+                <td>3:30</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>13</td>
+                <td>More of the Jazz</td>
+                <td>4:17</td>
+                <td>Queen</td>
+            </tr>            
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.8">
+	<div class="tit2" data-role="header">
+		<center>&diams; The Game &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="11"><img src="Imagenes/PHistoria/The+Game.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Play the Game</td>
+                <td>3:32</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Dragon Attack</td>
+                <td>4:19</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Another One Bites the Dust</td>
+                <td>3:38</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Need Your Loving Tonight</td>
+                <td>2:49</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Crazy Little Thing Called Love</td>
+                <td>2:44</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Rock It (Prime Jive)</td>
+                <td>4:33</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Don&acute;t Try Suicide</td>
+                <td>3:53</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Sail Away Sewwt Sister</td>
+                <td>3:33</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Coming Soon</td>
+                <td>2:51</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Save Me</td>
+                <td>3:50</td>
+                <td>Freddie Mercury</td>
+            </tr>            
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.9">
+	<div class="tit2" data-role="header">
+		<center>&diams; Flash Gordon - Banda Sonora &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="19"><img src="Imagenes/PHistoria/Flash+Gordon.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Flash&acute;s Theme</td>
+                <td>3:31</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>In The Space Capsule (The Love Theme)</td>
+                <td>2:43</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Ming&acute;s Theme (In the Court of Ming the Merciless)</td>
+                <td>2:41</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>The Ring (Hypnotic Seduction of Dale)</td>
+                <td>0:58</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Football Fight</td>
+                <td>1:29</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>In The Death Cell (Love Theme Reprise)</td>
+                <td>2:26</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Execution of Flash</td>
+                <td>1:06</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>The Kiss (Aura Resurrects Flash)</td>
+                <td>1:46</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Arboria (Planet Of the Tree Men)</td>
+                <td>1:42</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Escape from the Swamp</td>
+                <td>1:44</td>
+                <td>Queen</td>
+            </tr>    
+            <tr>
+            	<td>11</td>
+                <td>Flash to the Rescue</td>
+                <td>2:44</td>
+                <td>Queen</td>
+            </tr> 
+            <tr>
+            	<td>12</td>
+                <td>Vultan&acute;s Theme (Attack of the Hawk Men)</td>
+                <td>1:13</td>
+                <td>Queen</td>
+            </tr>  
+            <tr>
+            	<td>13</td>
+                <td>Battle Theme</td>
+                <td>2:19</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>14</td>
+                <td>The Wedding March</td>
+                <td>0:56</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>15</td>
+                <td>Marriage of Dale and Ming (and Flash Approaching)</td>
+                <td>2:05</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>16</td>
+                <td>Crash Dive on Mingo City</td>
+                <td>1:01</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>17</td>
+                <td>Flash&acute;s Theme Reprise (Victory Celebrations)</td>
+                <td>1:24</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>18</td>
+                <td>The Hero</td>
+                <td>3:31</td>
+               <td>Queen</td>
+            </tr>          
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.10">
+	<div class="tit2" data-role="header">
+		<center>&diams; Hot Space &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="12"><img src="Imagenes/PHistoria/Hot+Space.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Staying Power</td>
+                <td>4:13</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Dancer</td>
+                <td>3:50</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Back Chat</td>
+                <td>4:36</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Body Language</td>
+                <td>4:32</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Action This Day</td>
+                <td>3:33</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Put Out the Fire</td>
+                <td>3:20</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Life Is Real (Song For Lennon)</td>
+                <td>3:33</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Calling All Girls</td>
+                <td>3:52</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Las Palabras de Amor (The Words of Love)</td>
+                <td>4:32</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Cool Cat</td>
+                <td>3:29</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>11</td>
+                <td>Under Pressure</td>
+                <td>4:07</td>
+                <td>David Bowie</td>
+            </tr>            
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.11">
+	<div class="tit2" data-role="header">
+		<center>&diams; The Works &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="10"><img src="Imagenes/PHistoria/The+Works.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Radio Ga Ga</td>
+                <td>5:49</td>
+                <td>Roger Taylor</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Tear It Up</td>
+                <td>3:29</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>It&acute;s A Hard Life</td>
+                <td>4:09</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Man On the Prowl</td>
+                <td>3:29</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Machines (Or "Back to Humans")</td>
+                <td>5:11</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>I Want to Break Free</td>
+                <td>3:21</td>
+                <td>John Deacon</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Keep Passing The Open Windows</td>
+                <td>5:23</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Hammer to Fall</td>
+                <td>4:29</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Is This the World We Created</td>
+                <td>2:17</td>
+                <td>Brian May</td>
+            </tr>            
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.12">
+	<div class="tit2" data-role="header">
+		<center>&diams; A Kind of Magic &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="13"><img src="Imagenes/PHistoria/A+Kind+Of+Magic.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>One Vision</td>
+                <td>5:11</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>A Kind of Magic</td>
+                <td>4:25</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>One Year of Love</td>
+                <td>4:27</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Pain Is So Close to Pleasure</td>
+                <td>4:22</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Friends Will Be Friends</td>
+                <td>4:08</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Who Wants to Live Forever</td>
+                <td>5:17</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Gimme the Prize</td>
+                <td>4:35</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Don&acute;t Lose Your Head</td>
+                <td>4:38</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Princes of the Universe</td>
+                <td>3:33</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>A Kind of &acute;A Kind of Magic</td>
+                <td>3:38</td>
+                <td>Queen</td>
+            </tr> 
+            <tr>
+            	<td>11</td>
+                <td>Friends Will Be Friends Will Be Friends</td>
+                <td>5:58</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>12</td>
+                <td>Forever</td>
+                <td>3:21</td>
+                <td>Queen</td>
+            </tr>           
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.13">
+	<div class="tit2" data-role="header">
+		<center>&diams; The Miracle &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="14"><img src="Imagenes/PHistoria/The+Miracle.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Party</td>
+                <td>2:25</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Khashoggi&acute;s Ship</td>
+                <td>2:48</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>The Miracle</td>
+                <td>5:02</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>I Want It All</td>
+                <td>4:41</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>The Invisible Man</td>
+                <td>3:58</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Breakthru</td>
+                <td>4:08</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Rain Must Fall</td>
+                <td>4:23</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Scandal</td>
+                <td>4:43</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>My Baby Does Me</td>
+                <td>3:24</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>Was It All Worth It</td>
+                <td>5:46</td>
+                <td>Brian May</td>
+            </tr> 
+            <tr>
+            	<td>11</td>
+                <td>Hang on in There</td>
+                <td>3:47</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>12</td>
+                <td>Chinese Torture</td>
+                <td>1:46</td>
+                <td>Brian May</td>
+            </tr>
+            <tr>
+            	<td>13</td>
+                <td>The Invisible Man (12&acute; Version)</td>
+                <td>5:28</td>
+                <td>Queen</td>
+            </tr>           
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.14">
+	<div class="tit2" data-role="header">
+		<center>&diams; Innuendo &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="13"><img src="Imagenes/PHistoria/Innuendo.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>Innuendo</td>
+                <td>6:31</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>I&acute;m Going Slighty Mad</td>
+                <td>4:22</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Headlong</td>
+                <td>4:38</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>I Can&acute;t Live with You</td>
+                <td>4:34</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>Don&acute;t Try So Hard</td>
+                <td>3:39</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>Ride the Wild Wind</td>
+                <td>4:43</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>All God&acute;s People</td>
+                <td>4:22</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>These Are the Days of Our Lives</td>
+                <td>4:16</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>Delilah</td>
+                <td>3:35</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>The Hitman</td>
+                <td>4:57</td>
+                <td>Queen</td>
+            </tr> 
+            <tr>
+            	<td>11</td>
+                <td>Bijou</td>
+                <td>3:37</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>12</td>
+                <td>The Show Must Go On</td>
+                <td>4:36</td>
+                <td>Freddie Mercury</td>
+            </tr>          
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+
+<div data-role="page" id="page4.15">
+	<div class="tit2" data-role="header">
+		<center>&diams; Made in Heaven &diams;</center>
+        <a href="#page4"><button>&alefsym; Atr&aacute;s &alefsym;</button></a>
+        <a href="#page"><button>&hearts; Inicio &hearts;</button></a>
+	</div>
+	<div class="fondo" data-role="content">  	
+		<table>
+        	<tr>
+            	<td rowspan="14"><img src="Imagenes/PHistoria/Made+In+Heaven.png" width="510"></td>
+            	<td>No.</td>
+                <td>Canci&oacute;n</td>
+                <td>Duraci&oacute;n</td>
+                <td>Compositor</td>
+            </tr>
+        	<tr>
+            	<td>1</td>
+                <td>It&acute;s a Beautiful Day</td>
+                <td>2:33</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>2</td>
+                <td>Made in Heaven</td>
+                <td>5:25</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>3</td>
+                <td>Let Me Live</td>
+                <td>4:46</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>4</td>
+                <td>Mother Love</td>
+                <td>4:49</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>5</td>
+                <td>My Life Has Been Saved</td>
+                <td>3:16</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>6</td>
+                <td>I Was Born to Love You</td>
+                <td>4:50</td>
+                <td>Freddie Mercury</td>
+            </tr>
+            <tr>
+            	<td>7</td>
+                <td>Heaven for Everyone</td>
+                <td>5:36</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>8</td>
+                <td>Too Much Love Will Kill You</td>
+                <td>4:20</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>9</td>
+                <td>You Don't Fool Me</td>
+                <td>5:25</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>10</td>
+                <td>A Winter's Tale</td>
+                <td>3:49</td>
+                <td>Queen</td>
+            </tr> 
+            <tr>
+            	<td>11</td>
+                <td>It&acute;s a Beautiful Day (Reprise)</td>
+                <td>3:02</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>12</td>
+                <td>Yeah</td>
+                <td>0:04</td>
+                <td>Queen</td>
+            </tr>
+            <tr>
+            	<td>13</td>
+                <td>Untitled</td>
+                <td>22:33</td>
+                <td>Queen</td>
+            </tr>          
+        </table>
+	</div>
+  	<div data-role="footer">		               
+    	<h4>Discograf&iacute;a</h4>	
+ 	</div>
+</div>
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+<!--------------------------------------------------DISCOGRAFIA----------------------------------------------------------->
+
+</body>
+</html>
